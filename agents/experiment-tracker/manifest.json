@@ -1,0 +1,18 @@
+{
+  "name": "experiment-tracker",
+  "displayName": "Experiment Tracker",
+  "description": "Experiment orchestrator for A/B testing, feature experiments, and data-driven iteration. PROACTIVELY use when experiments start or results need analysis.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "analytics",
+    "experiment-design-&-setup",
+    "implementation-tracking",
+    "data-collection-&-monitoring"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "experiment-tracker.md"
+}

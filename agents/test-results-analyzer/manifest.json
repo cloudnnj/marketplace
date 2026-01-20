@@ -1,0 +1,18 @@
+{
+  "name": "test-results-analyzer",
+  "displayName": "Test Results Analyzer",
+  "description": "Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializes in turning raw test data into actionable insights that drive quality improvements.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "testing",
+    "test-result-analysis-and-patte",
+    "quality-metrics-synthesis-and-",
+    "flaky-test-detection-and-analy"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "test-results-analyzer.md"
+}

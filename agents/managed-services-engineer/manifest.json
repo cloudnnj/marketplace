@@ -1,0 +1,18 @@
+{
+  "name": "managed-services-engineer",
+  "displayName": "Managed Services Engineer",
+  "description": "Use this agent when you need to ensure product-customer alignment, manage release updates, identify optimization opportunities, or maintain implementation health and performance. Specializes in product-customer alignment, release management, and implementation optimization.",
+  "author": "CloudNNJ",
+  "category": "account-customer-success",
+  "tags": [
+    "account-management",
+    "product-customer-alignment-ana",
+    "release-update-compatibility-e",
+    "implementation-performance-aud"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "managed-services-engineer.md"
+}

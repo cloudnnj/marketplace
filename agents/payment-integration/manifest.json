@@ -1,0 +1,19 @@
+{
+  "name": "payment-integration",
+  "displayName": "Payment Integration",
+  "description": "Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance. Use PROACTIVELY when implementing payments, billing, or subscription features.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "microservices",
+    "payment-gateway-integration",
+    "pci-compliance",
+    "transaction-security"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "payment-integration.md"
+}

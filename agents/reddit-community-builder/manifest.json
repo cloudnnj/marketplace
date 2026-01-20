@@ -1,0 +1,18 @@
+{
+  "name": "reddit-community-builder",
+  "displayName": "Reddit Community Builder",
+  "description": "Reddit specialist for authentic engagement, organic growth, and community-first strategies. Use for Reddit marketing, subreddit participation, and reputation building.",
+  "author": "CloudNNJ",
+  "category": "marketing",
+  "tags": [
+    "social",
+    "subreddit-strategy-development",
+    "content-creation-for-reddit",
+    "community-relationship-building"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "reddit-community-builder.md"
+}

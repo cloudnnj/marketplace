@@ -1,0 +1,18 @@
+{
+  "name": "risk-assessor",
+  "displayName": "Risk Assessor",
+  "description": "Comprehensive risk modeling, scenario planning, business continuity analysis, and risk mitigation strategies with Monte Carlo simulations, quantitative risk analysis, and early warning systems.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "risk",
+    "conduct-comprehensive-risk-ass",
+    "build-quantitative-risk-models",
+    "create-scenario-based-stress-t"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "risk-assessor.md"
+}

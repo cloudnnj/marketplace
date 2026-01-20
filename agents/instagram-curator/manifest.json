@@ -1,0 +1,18 @@
+{
+  "name": "instagram-curator",
+  "displayName": "Instagram Curator",
+  "description": "Instagram specialist for visual content strategy, Stories, Reels, and platform growth. Use for Instagram marketing, engagement optimization, and visual aesthetics.",
+  "author": "CloudNNJ",
+  "category": "marketing",
+  "tags": [
+    "social",
+    "visual-strategy-development",
+    "growth-optimization",
+    "reels-production-planning"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "instagram-curator.md"
+}

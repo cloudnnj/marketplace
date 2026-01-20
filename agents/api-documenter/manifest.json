@@ -1,0 +1,19 @@
+{
+  "name": "api-documenter",
+  "displayName": "Api Documenter",
+  "description": "Create OpenAPI/Swagger specs, generate SDKs, and write developer documentation. Handles versioning, examples, and interactive docs. Use PROACTIVELY for API documentation or client library generation.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "api-design",
+    "openapi-specification",
+    "api-documentation",
+    "sdk-generation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "api-documenter.md"
+}

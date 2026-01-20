@@ -1,0 +1,18 @@
+{
+  "name": "legal-compliance-checker",
+  "displayName": "Legal Compliance Checker",
+  "description": "Review terms of service, privacy policies, ensure regulatory compliance for app development with GDPR, CCPA, COPPA, HIPAA, accessibility standards, and platform policy adherence.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "compliance",
+    "conduct-gdpr,-ccpa,-coppa,-and",
+    "implement-data-protection-arch",
+    "ensure-platform-policy-adheren"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "legal-compliance-checker.md"
+}

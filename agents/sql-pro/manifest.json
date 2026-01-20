@@ -1,0 +1,19 @@
+{
+  "name": "sql-pro",
+  "displayName": "Sql Pro",
+  "description": "Write complex SQL queries, optimize execution plans, and design normalized schemas. Masters CTEs, window functions, and stored procedures. Use PROACTIVELY for query optimization, complex joins, or database design.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "languages",
+    "sql",
+    "sql-best-practices",
+    "framework-expertise",
+    "performance-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "sql-pro.md"
+}

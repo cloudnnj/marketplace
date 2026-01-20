@@ -1,0 +1,19 @@
+{
+  "name": "cpp-pro",
+  "displayName": "Cpp Pro",
+  "description": "Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms. Handles templates, move semantics, and performance optimization. Use PROACTIVELY for C++ refactoring, memory safety, or complex C++ patterns.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "languages",
+    "cpp",
+    "c++-best-practices",
+    "framework-expertise",
+    "performance-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "cpp-pro.md"
+}

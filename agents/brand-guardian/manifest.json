@@ -1,0 +1,18 @@
+{
+  "name": "brand-guardian",
+  "displayName": "Brand Guardian",
+  "description": "Brand identity specialist for establishing guidelines, ensuring consistency, managing assets, and evolving brand identity. Use for brand standards and visual cohesion.",
+  "author": "CloudNNJ",
+  "category": "design",
+  "tags": [
+    "brand",
+    "brand-foundation-development",
+    "visual-consistency-systems",
+    "cross-platform-harmonization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "brand-guardian.md"
+}

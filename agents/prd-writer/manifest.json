@@ -1,0 +1,18 @@
+{
+  "name": "prd-writer",
+  "displayName": "Prd Writer",
+  "description": "Product requirements specialist for creating comprehensive PRDs with testable requirements and clear acceptance criteria. Use for product documentation and requirements gathering.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "requirements",
+    "evidence-based-requirements",
+    "structured-documentation",
+    "testable-requirements"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "prd-writer.md"
+}

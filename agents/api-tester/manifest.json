@@ -1,0 +1,18 @@
+{
+  "name": "api-tester",
+  "displayName": "Api Tester",
+  "description": "Use this agent for comprehensive API testing including performance testing, load testing, and contract testing. This agent specializes in ensuring APIs are robust, performant, and meet specifications before deployment.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "testing",
+    "api-performance-and-load-testi",
+    "contract-validation-and-compli",
+    "integration-and-chaos-testing"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "api-tester.md"
+}

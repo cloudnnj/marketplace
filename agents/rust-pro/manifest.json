@@ -1,0 +1,19 @@
+{
+  "name": "rust-pro",
+  "displayName": "Rust Pro",
+  "description": "Write idiomatic Rust with ownership patterns, lifetimes, and trait implementations. Masters async/await, safe concurrency, and zero-cost abstractions. Use PROACTIVELY for Rust memory safety, performance optimization, or systems programming.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "languages",
+    "rust",
+    "rust-best-practices",
+    "framework-expertise",
+    "performance-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "rust-pro.md"
+}

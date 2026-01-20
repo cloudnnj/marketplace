@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-bukkit-pro",
+  "displayName": "Minecraft Bukkit Pro",
+  "description": "Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs. Specializes in event-driven architecture, command systems, world manipulation, player management, and performance optimization. Use PROACTIVELY for plugin architecture, gameplay mechanics, server-side features, or cross-version compatibility.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "languages",
+    "java",
+    "minecraft-plugin-best-practices",
+    "framework-expertise",
+    "performance-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "minecraft-bukkit-pro.md"
+}

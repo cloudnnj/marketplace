@@ -1,0 +1,18 @@
+{
+  "name": "requirements-generator",
+  "displayName": "Requirements Generator",
+  "description": "Product requirements generator for transforming ideas into structured PRDs. Use for feature requests, product concepts, and business problem documentation.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "requirements",
+    "core-value-extraction",
+    "business-impact-focus",
+    "user-centric-approach"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "requirements-generator.md"
+}

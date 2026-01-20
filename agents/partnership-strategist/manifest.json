@@ -1,0 +1,18 @@
+{
+  "name": "partnership-strategist",
+  "displayName": "Partnership Strategist",
+  "description": "Partnership evaluation, channel strategy, integration planning, and strategic alliance development with partner ecosystem design, co-marketing strategies, and revenue sharing models for collaborative growth.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "strategy",
+    "design-comprehensive-partner-e",
+    "evaluate-potential-partners-us",
+    "develop-co-marketing-and-co-se"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "partnership-strategist.md"
+}

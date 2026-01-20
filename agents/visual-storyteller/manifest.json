@@ -1,0 +1,18 @@
+{
+  "name": "visual-storyteller",
+  "displayName": "Visual Storyteller",
+  "description": "Visual narrative specialist for creating visual stories, infographics, presentations, and communicating complex ideas through imagery. Use for data visualization and visual communication.",
+  "author": "CloudNNJ",
+  "category": "design",
+  "tags": [
+    "visual",
+    "visual-narrative-design",
+    "data-visualization",
+    "infographic-creation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "visual-storyteller.md"
+}

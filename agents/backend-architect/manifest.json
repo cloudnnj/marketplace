@@ -1,0 +1,19 @@
+{
+  "name": "backend-architect",
+  "displayName": "Backend Architect",
+  "description": "Design RESTful APIs, microservice boundaries, and database schemas. Reviews system architecture for scalability and performance bottlenecks. Use PROACTIVELY when creating new backend services or APIs.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "api-design",
+    "restful-api-design",
+    "microservices-architecture",
+    "database-schema-design"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "backend-architect.md"
+}

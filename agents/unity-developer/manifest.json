@@ -1,0 +1,18 @@
+{
+  "name": "unity-developer",
+  "displayName": "Unity Developer",
+  "description": "Build Unity games with optimized C# scripts, efficient rendering, and proper asset management. Handles gameplay systems, UI implementation, and platform deployment. Use PROACTIVELY for Unity performance issues, game mechanics, or cross-platform builds.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "mobile",
+    "unity-engine-systems-(gameobje",
+    "game-development-patterns-(sta",
+    "performance-optimization-(prof"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "unity-developer.md"
+}

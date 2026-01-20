@@ -1,0 +1,18 @@
+{
+  "name": "infrastructure-maintainer",
+  "displayName": "Infrastructure Maintainer",
+  "description": "Monitor system health, optimize performance, manage scaling, and ensure infrastructure reliability with capacity planning, cost optimization, disaster recovery, and comprehensive observability for app operations.",
+  "author": "CloudNNJ",
+  "category": "operations",
+  "tags": [
+    "infrastructure",
+    "optimize-performance-through-p",
+    "implement-comprehensive-monito",
+    "plan-and-execute-scaling-with-"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "infrastructure-maintainer.md"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ui-ux-analyst",
+  "displayName": "Ui Ux Analyst",
+  "description": "UI/UX analysis specialist for design feedback, strategic guidance, and improving user interfaces. Use for design reviews, usability analysis, and UX strategy.",
+  "author": "CloudNNJ",
+  "category": "design",
+  "tags": [
+    "ui",
+    "design-analysis-&-feedback",
+    "strategic-guidance",
+    "trend-analysis-&-innovation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "ui-ux-analyst.md"
+}

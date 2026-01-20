@@ -1,0 +1,18 @@
+{
+  "name": "workflow-optimizer",
+  "displayName": "Workflow Optimizer",
+  "description": "Use this agent for optimizing human-agent collaboration workflows and analyzing workflow efficiency. This agent specializes in identifying bottlenecks, streamlining processes, and ensuring smooth handoffs between human creativity and AI assistance.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "testing",
+    "workflow-analysis-and-bottlene",
+    "human-agent-collaboration-opti",
+    "process-automation-and-efficie"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "workflow-optimizer.md"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "growth-hacker",
+  "displayName": "Growth Hacker",
+  "description": "Growth specialist for rapid user acquisition, viral loops, and data-driven experiments. Use for growth strategy, A/B testing, and conversion optimization.",
+  "author": "CloudNNJ",
+  "category": "marketing",
+  "tags": [
+    "growth",
+    "viral-loop-design",
+    "growth-experiment-execution",
+    "channel-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "growth-hacker.md"
+}

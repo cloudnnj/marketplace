@@ -1,0 +1,19 @@
+{
+  "name": "python-pro",
+  "displayName": "Python Pro",
+  "description": "Write idiomatic Python code with advanced features like decorators, generators, and async/await. Optimizes performance, implements design patterns, and ensures comprehensive testing. Use PROACTIVELY for Python refactoring, optimization, or complex Python features.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "languages",
+    "python",
+    "python-best-practices",
+    "framework-expertise",
+    "performance-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "python-pro.md"
+}

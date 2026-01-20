@@ -1,0 +1,18 @@
+{
+  "name": "security-threat-analyst",
+  "displayName": "Security Threat Analyst",
+  "description": "Use this agent when you need to perform security assessments, threat modeling, vulnerability analysis, or implement security controls. This includes reviewing code for security vulnerabilities, designing secure architectures, implementing authentication/authorization, analyzing potential attack vectors, or responding to security incidents.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "security",
+    "security-assessments-and-threa",
+    "vulnerability-analysis-and-rem",
+    "authentication-and-authorizati"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "security-threat-analyst.md"
+}

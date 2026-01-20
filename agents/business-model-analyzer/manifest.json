@@ -1,0 +1,18 @@
+{
+  "name": "business-model-analyzer",
+  "displayName": "Business Model Analyzer",
+  "description": "Research monetization strategies, analyze business models, evaluate pricing approaches, and understand revenue streams with unit economics assessment, pricing psychology, and sustainable growth frameworks.",
+  "author": "CloudNNJ",
+  "category": "research",
+  "tags": [
+    "market",
+    "identify-and-analyze-diverse-r",
+    "deconstruct-successful-busines",
+    "research-pricing-strategies-in"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "business-model-analyzer.md"
+}

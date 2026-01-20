@@ -1,0 +1,18 @@
+{
+  "name": "network-engineer",
+  "displayName": "Network Engineer",
+  "description": "Debug network connectivity, configure load balancers, and analyze traffic patterns. Handles DNS, SSL/TLS, CDN setup, and network security. Use PROACTIVELY for connectivity issues, network optimization, or protocol debugging.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "devops",
+    "dns-configuration-and-debuggin",
+    "load-balancer-setup-(nginx,-ha",
+    "ssl/tls-certificates-and-https"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "network-engineer.md"
+}

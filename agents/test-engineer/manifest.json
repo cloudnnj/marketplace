@@ -1,0 +1,17 @@
+{
+  "name": "test-engineer",
+  "displayName": "Test Engineer",
+  "description": "Specialized testing expert for comprehensive test creation, validation, and quality assurance across all testing levels. Use proactively for test generation and coverage analysis.",
+  "author": "CloudNNJ",
+  "category": "core",
+  "tags": [
+    "comprehensive-test-strategy",
+    "test-pyramid-implementation",
+    "framework-expertise"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "test-engineer.md"
+}

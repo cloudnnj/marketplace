@@ -1,0 +1,18 @@
+{
+  "name": "revenue-analyst",
+  "displayName": "Revenue Analyst",
+  "description": "Revenue forecasting, pipeline analysis, growth metrics tracking, and revenue optimization with SaaS metrics, customer cohort modeling, and predictive analytics for sustainable business growth.",
+  "author": "CloudNNJ",
+  "category": "operations",
+  "tags": [
+    "analytics",
+    "build-comprehensive-revenue-fo",
+    "analyze-sales-pipeline-health-",
+    "develop-customer-cohort-models"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "revenue-analyst.md"
+}

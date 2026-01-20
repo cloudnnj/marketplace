@@ -1,0 +1,18 @@
+{
+  "name": "financial-analyst",
+  "displayName": "Financial Analyst",
+  "description": "Comprehensive financial analysis, ROI modeling, budget planning, and investment evaluation with three-statement financial models, scenario-based projections, and unit economics analysis for strategic business decisions.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "finance",
+    "build-comprehensive-three-stat",
+    "perform-roi-and-investment-ana",
+    "develop-driver-based-budgets-w"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "financial-analyst.md"
+}

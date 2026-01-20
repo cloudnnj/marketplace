@@ -1,0 +1,18 @@
+{
+  "name": "support-responder",
+  "displayName": "Support Responder",
+  "description": "Handle customer support inquiries, create support documentation, automated responses, and analyze support patterns to maintain high-quality support while identifying product improvement opportunities.",
+  "author": "CloudNNJ",
+  "category": "operations",
+  "tags": [
+    "support",
+    "create-comprehensive-support-i",
+    "craft-empathetic-response-temp",
+    "identify-repetitive-issues-and"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "support-responder.md"
+}

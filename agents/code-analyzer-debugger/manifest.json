@@ -1,0 +1,18 @@
+{
+  "name": "code-analyzer-debugger",
+  "displayName": "Code Analyzer Debugger",
+  "description": "Use this agent when you need to investigate bugs, analyze code issues, debug problems, or perform root cause analysis. This includes scenarios where you need to trace execution paths, analyze error messages, investigate performance bottlenecks, debug integration failures, or systematically troubleshoot any code-related issues.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "debugging",
+    "bug-investigation-and-root-cau",
+    "systematic-debugging-and-error",
+    "performance-bottleneck-identif"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "code-analyzer-debugger.md"
+}

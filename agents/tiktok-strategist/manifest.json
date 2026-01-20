@@ -1,0 +1,18 @@
+{
+  "name": "tiktok-strategist",
+  "displayName": "Tiktok Strategist",
+  "description": "TikTok specialist for viral content creation, trend leverage, and algorithm optimization. Use for TikTok marketing strategies and influencer collaborations.",
+  "author": "CloudNNJ",
+  "category": "marketing",
+  "tags": [
+    "social",
+    "viral-content-strategy",
+    "algorithm-optimization",
+    "content-format-development"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "tiktok-strategist.md"
+}

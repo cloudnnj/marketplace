@@ -1,0 +1,18 @@
+{
+  "name": "quant-analyst",
+  "displayName": "Quant Analyst",
+  "description": "Build financial models, backtest trading strategies, and analyze market data with risk metrics, portfolio optimization, statistical arbitrage, time series forecasting, and options pricing for algorithmic trading.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "finance",
+    "develop-and-backtest-trading-s",
+    "calculate-risk-metrics-includi",
+    "implement-portfolio-optimizati"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "quant-analyst.md"
+}

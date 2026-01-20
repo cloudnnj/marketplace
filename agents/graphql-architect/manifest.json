@@ -1,0 +1,19 @@
+{
+  "name": "graphql-architect",
+  "displayName": "Graphql Architect",
+  "description": "Design GraphQL schemas, resolvers, and federation. Optimizes queries, solves N+1 problems, and implements subscriptions. Use PROACTIVELY for GraphQL API design or performance issues.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "api-design",
+    "graphql-schema-design",
+    "resolver-optimization",
+    "federation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "graphql-architect.md"
+}

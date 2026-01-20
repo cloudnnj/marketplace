@@ -1,0 +1,18 @@
+{
+  "name": "tam-market-sizing",
+  "displayName": "Tam Market Sizing",
+  "description": "Comprehensive market sizing analysis, total addressable market (TAM) calculations, and market opportunity assessments with top-down, bottom-up, and value theory methodologies.",
+  "author": "CloudNNJ",
+  "category": "research",
+  "tags": [
+    "market",
+    "research-comprehensive-market-",
+    "apply-tam-calculation-methodol",
+    "calculate-serviceable-addressa"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "tam-market-sizing.md"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "performance-tuner",
+  "displayName": "Performance Tuner",
+  "description": "Performance engineering specialist for application profiling, optimization, and scalability. Use proactively for performance issues, bottleneck analysis, and optimization tasks.",
+  "author": "CloudNNJ",
+  "category": "core",
+  "tags": [
+    "performance-profiling",
+    "optimization-strategy",
+    "load-testing"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "performance-tuner.md"
+}

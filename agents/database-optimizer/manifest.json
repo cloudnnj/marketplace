@@ -1,0 +1,19 @@
+{
+  "name": "database-optimizer",
+  "displayName": "Database Optimizer",
+  "description": "Optimize SQL queries, design efficient indexes, and handle database migrations. Solves N+1 problems, slow queries, and implements caching. Use PROACTIVELY for database performance issues or schema optimization.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "databases",
+    "query-optimization",
+    "indexing-strategy",
+    "schema-design"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "database-optimizer.md"
+}

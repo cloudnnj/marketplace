@@ -1,0 +1,19 @@
+{
+  "name": "backend-reliability-engineer",
+  "displayName": "Backend Reliability Engineer",
+  "description": "Use this agent when you need to design, implement, or review server-side systems, APIs, databases, or distributed architectures. This includes tasks like creating RESTful or GraphQL APIs, designing database schemas, implementing authentication systems, optimizing query performance, setting up message queues, or architecting microservices. The agent excels at ensuring reliability, security, and scalability in backend systems.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "microservices",
+    "system-reliability",
+    "resilience-patterns",
+    "fault-tolerance"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "backend-reliability-engineer.md"
+}

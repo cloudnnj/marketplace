@@ -1,0 +1,19 @@
+{
+  "name": "database-admin",
+  "displayName": "Database Admin",
+  "description": "Manage database operations, backups, replication, and monitoring. Handles user permissions, maintenance tasks, and disaster recovery. Use PROACTIVELY for database setup, operational issues, or recovery procedures.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "databases",
+    "database-operations",
+    "backup-&-recovery",
+    "replication"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "database-admin.md"
+}

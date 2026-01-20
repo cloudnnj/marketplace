@@ -1,0 +1,18 @@
+{
+  "name": "search-specialist",
+  "displayName": "Search Specialist",
+  "description": "Expert web researcher using advanced search techniques, query optimization, domain filtering, and multi-source verification for competitive analysis, fact-checking, and comprehensive information synthesis.",
+  "author": "CloudNNJ",
+  "category": "research",
+  "tags": [
+    "data",
+    "formulate-optimized-search-que",
+    "apply-domain-filtering-strateg",
+    "extract-and-parse-full-content"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "search-specialist.md"
+}

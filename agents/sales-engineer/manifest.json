@@ -1,0 +1,18 @@
+{
+  "name": "sales-engineer",
+  "displayName": "Sales Engineer",
+  "description": "Use this agent when you need technical sales support, solution architecture, demo preparation, and proof-of-concept development for complex technical products. Senior Sales Engineer specializing in translating complex technical capabilities into business value.",
+  "author": "CloudNNJ",
+  "category": "account-customer-success",
+  "tags": [
+    "sales",
+    "technical-solution-architectur",
+    "demo-engineering-with-customer",
+    "proof-of-concept-planning-with"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "sales-engineer.md"
+}

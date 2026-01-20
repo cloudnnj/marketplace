@@ -1,0 +1,18 @@
+{
+  "name": "experience-analyzer",
+  "displayName": "Experience Analyzer",
+  "description": "Customer experience analyst for analyzing feedback data, identifying friction points, and optimizing user journeys. Use for support ticket analysis and customer journey mapping.",
+  "author": "CloudNNJ",
+  "category": "design",
+  "tags": [
+    "ux",
+    "data-analysis-&-pattern-recognition",
+    "customer-journey-mapping",
+    "root-cause-analysis"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "experience-analyzer.md"
+}

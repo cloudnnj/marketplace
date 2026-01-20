@@ -1,0 +1,18 @@
+{
+  "name": "whimsy-injector",
+  "displayName": "Whimsy Injector",
+  "description": "Delight specialist for adding joy, surprise, and memorable moments to user experiences. PROACTIVELY use after any UI/UX changes to ensure delightful, playful elements are incorporated.",
+  "author": "CloudNNJ",
+  "category": "design",
+  "tags": [
+    "visual",
+    "delight-opportunity-identification",
+    "micro-interaction-design",
+    "emotional-journey-mapping"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "whimsy-injector.md"
+}

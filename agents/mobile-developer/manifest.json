@@ -1,0 +1,18 @@
+{
+  "name": "mobile-developer",
+  "displayName": "Mobile Developer",
+  "description": "Develop React Native or Flutter apps with native integrations. Handles offline sync, push notifications, and app store deployments. Use PROACTIVELY for mobile features, cross-platform code, or app optimization.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "mobile",
+    "react-native/flutter-cross-pla",
+    "native-module-integration-(ios",
+    "offline-first-data-sync-and-pu"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "mobile-developer.md"
+}

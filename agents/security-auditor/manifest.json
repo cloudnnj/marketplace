@@ -1,0 +1,17 @@
+{
+  "name": "security-auditor",
+  "displayName": "Security Auditor",
+  "description": "Security specialist for vulnerability assessment, secure authentication, and OWASP compliance. Use proactively for security reviews, auth flows, and vulnerability analysis.",
+  "author": "CloudNNJ",
+  "category": "core",
+  "tags": [
+    "security-vulnerability-assessment",
+    "secure-authentication",
+    "threat-modeling"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "security-auditor.md"
+}

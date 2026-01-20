@@ -1,0 +1,18 @@
+{
+  "name": "business-analyst",
+  "displayName": "Business Analyst",
+  "description": "Analyze metrics, create reports, and track KPIs with dashboards, revenue models, growth projections, cohort analysis, and actionable insights for data-driven business decisions.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "strategy",
+    "track-and-analyze-kpis-includi",
+    "build-metrics-dashboards-and-v",
+    "create-growth-projections-and-"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "business-analyst.md"
+}

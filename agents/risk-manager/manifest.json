@@ -1,0 +1,18 @@
+{
+  "name": "risk-manager",
+  "displayName": "Risk Manager",
+  "description": "Monitor portfolio risk, R-multiples, and position limits with hedging strategies, expectancy calculations, stop-loss implementation, VaR analysis, and comprehensive risk assessment for portfolio protection.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "finance",
+    "calculate-position-sizing-usin",
+    "perform-value-at-risk-(var)-ca",
+    "design-hedging-strategies-usin"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "risk-manager.md"
+}

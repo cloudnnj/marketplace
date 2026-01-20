@@ -1,0 +1,18 @@
+{
+  "name": "pricing-strategist",
+  "displayName": "Pricing Strategist",
+  "description": "Dynamic pricing analysis, revenue optimization, competitive pricing strategies, and pricing model development with value-based pricing, tiered structures, A/B testing frameworks, and willingness-to-pay analysis.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "finance",
+    "design-value-based-pricing-str",
+    "create-tiered-pricing-structur",
+    "develop-dynamic-pricing-algori"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "pricing-strategist.md"
+}

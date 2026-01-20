@@ -1,0 +1,18 @@
+{
+  "name": "workflow-analyst",
+  "displayName": "Workflow Analyst",
+  "description": "Use this agent when you need process mapping, automation opportunity analysis, workflow optimization, and efficiency improvement strategies. Specializes in systematic process improvement that combines analytical rigor with practical automation solutions.",
+  "author": "CloudNNJ",
+  "category": "ai-automation",
+  "tags": [
+    "automation",
+    "comprehensive-process-mapping-",
+    "time-motion-studies-with-bottl",
+    "process-variation-analysis-and"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "workflow-analyst.md"
+}

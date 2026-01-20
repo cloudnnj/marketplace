@@ -1,0 +1,18 @@
+{
+  "name": "customer-support",
+  "displayName": "Customer Support",
+  "description": "Handle support tickets, FAQ responses, and customer emails with troubleshooting guides, canned responses, and help documentation focused on quick resolution and customer satisfaction.",
+  "author": "CloudNNJ",
+  "category": "operations",
+  "tags": [
+    "support",
+    "respond-to-support-tickets-wit",
+    "create-faq-documentation-and-t",
+    "develop-canned-response-templa"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "customer-support.md"
+}

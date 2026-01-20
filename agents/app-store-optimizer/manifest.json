@@ -1,0 +1,18 @@
+{
+  "name": "app-store-optimizer",
+  "displayName": "App Store Optimizer",
+  "description": "App store optimization specialist for ASO, keyword research, and conversion optimization. Use for app store listings, metadata optimization, and organic visibility.",
+  "author": "CloudNNJ",
+  "category": "marketing",
+  "tags": [
+    "seo",
+    "keyword-research-&-strategy",
+    "metadata-optimization",
+    "visual-asset-optimization"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "app-store-optimizer.md"
+}

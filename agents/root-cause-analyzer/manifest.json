@@ -1,0 +1,17 @@
+{
+  "name": "root-cause-analyzer",
+  "displayName": "Root Cause Analyzer",
+  "description": "Expert debugging specialist focused on comprehensive root cause analysis (RCA), systematic problem-solving, and minimal-impact fixes. Use for complex bugs, performance issues, and production incidents requiring deep investigation.",
+  "author": "CloudNNJ",
+  "category": "core",
+  "tags": [
+    "root-cause-analysis",
+    "systematic-debugging",
+    "performance-profiling"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "root-cause-analyzer.md"
+}

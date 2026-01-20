@@ -1,0 +1,18 @@
+{
+  "name": "legal-advisor",
+  "displayName": "Legal Advisor",
+  "description": "Draft privacy policies, terms of service, disclaimers, and legal notices with GDPR, CCPA, LGPD compliance, cookie policies, data processing agreements, and intellectual property documentation.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "compliance",
+    "draft-comprehensive-privacy-po",
+    "create-terms-of-service,-user-",
+    "develop-cookie-policies,-conse"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "legal-advisor.md"
+}

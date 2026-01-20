@@ -1,0 +1,18 @@
+{
+  "name": "frontend-ux-specialist",
+  "displayName": "Frontend Ux Specialist",
+  "description": "Use this agent when you need to create, review, or optimize user interfaces and frontend components. This includes building new UI components, improving existing interfaces, ensuring accessibility compliance, optimizing frontend performance, implementing responsive designs, or addressing user experience concerns. The agent excels at mobile-first development, accessibility standards, and performance optimization.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "frontend",
+    "react/vue/angular-with-typescr",
+    "mobile-first-responsive-design",
+    "frontend-performance-optimizat"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "frontend-ux-specialist.md"
+}

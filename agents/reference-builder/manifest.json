@@ -1,0 +1,18 @@
+{
+  "name": "reference-builder",
+  "displayName": "Reference Builder",
+  "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references, or complete technical specifications.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "documentation",
+    "exhaustive-api-and-technical-r",
+    "configuration-guide-generation",
+    "cross-referencing-and-categori"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "reference-builder.md"
+}

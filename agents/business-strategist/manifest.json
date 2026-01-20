@@ -1,0 +1,18 @@
+{
+  "name": "business-strategist",
+  "displayName": "Business Strategist",
+  "description": "Strategic planning, competitive positioning, market entry strategies, and long-term business roadmap development with comprehensive market analysis, business model innovation, and strategic execution frameworks.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "strategy",
+    "develop-comprehensive-business",
+    "conduct-competitive-landscape-",
+    "create-market-entry-strategies"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "business-strategist.md"
+}

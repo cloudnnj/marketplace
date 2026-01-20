@@ -1,0 +1,18 @@
+{
+  "name": "project-shipper",
+  "displayName": "Project Shipper",
+  "description": "Launch orchestrator for release management, go-to-market execution, and stakeholder communication. PROACTIVELY use when approaching launch milestones or release deadlines.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "management",
+    "launch-planning-&-coordination",
+    "release-management-excellence",
+    "go-to-market-execution"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "project-shipper.md"
+}

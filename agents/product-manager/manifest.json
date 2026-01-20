@@ -1,0 +1,18 @@
+{
+  "name": "product-manager",
+  "displayName": "Product Manager",
+  "description": "Product management orchestrator for coordinating specialized agents to deliver complete features. Use for cross-functional development work and complex initiatives.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "management",
+    "team-orchestration",
+    "decision-making-framework",
+    "feature-development-flow"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "product-manager.md"
+}

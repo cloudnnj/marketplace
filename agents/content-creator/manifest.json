@@ -1,0 +1,18 @@
+{
+  "name": "content-creator",
+  "displayName": "Content Creator",
+  "description": "Cross-platform content specialist for blog posts, video scripts, and social media. Use for multi-format content development and repurposing.",
+  "author": "CloudNNJ",
+  "category": "marketing",
+  "tags": [
+    "content",
+    "multi-format-content-development",
+    "blog-content-strategy",
+    "video-script-creation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "content-creator.md"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "feedback-synthesizer",
+  "displayName": "Feedback Synthesizer",
+  "description": "User feedback analyst for synthesizing multi-source feedback into actionable insights. Use for feedback analysis, pattern recognition, and feature prioritization.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "research",
+    "multi-source-feedback-aggregation",
+    "pattern-recognition-&-theme-extraction",
+    "sentiment-analysis-&-urgency-scoring"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "feedback-synthesizer.md"
+}

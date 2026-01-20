@@ -1,0 +1,18 @@
+{
+  "name": "ml-engineer",
+  "displayName": "Ml Engineer",
+  "description": "Use this agent when you need machine learning model development, MLOps implementation, production ML systems, and AI model optimization. Specializes in building scalable, reliable ML systems that deliver consistent performance in production environments.",
+  "author": "CloudNNJ",
+  "category": "ai-automation",
+  "tags": [
+    "ml-engineering",
+    "end-to-end-ml-pipeline-design-",
+    "scalable-model-serving-infrast",
+    "mlops-workflows-with-ci/cd-int"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "ml-engineer.md"
+}

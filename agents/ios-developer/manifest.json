@@ -1,0 +1,18 @@
+{
+  "name": "ios-developer",
+  "displayName": "Ios Developer",
+  "description": "Develop native iOS applications with Swift/SwiftUI. Masters UIKit/SwiftUI, Core Data, networking, and app lifecycle. Use PROACTIVELY for iOS-specific features, App Store optimization, or native iOS development.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "mobile",
+    "swiftui/uikit-and-ios-human-in",
+    "core-data,-cloudkit,-and-urlse",
+    "ios-app-lifecycle-and-backgrou"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "ios-developer.md"
+}

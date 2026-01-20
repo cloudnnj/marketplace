@@ -1,0 +1,18 @@
+{
+  "name": "ui-ux-designer",
+  "displayName": "Ui Ux Designer",
+  "description": "Create interface designs, wireframes, and design systems. Masters user research, prototyping, and accessibility standards. Use PROACTIVELY for design systems, user flows, or interface optimization.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "frontend",
+    "user-research,-persona-develop",
+    "wireframing,-prototyping,-and-",
+    "accessibility-and-inclusive-de"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "ui-ux-designer.md"
+}

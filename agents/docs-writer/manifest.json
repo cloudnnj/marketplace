@@ -1,0 +1,17 @@
+{
+  "name": "docs-writer",
+  "displayName": "Docs Writer",
+  "description": "Expert technical documentation specialist for creating comprehensive, user-friendly documentation across all project types. Use proactively for API docs, user guides, and technical documentation.",
+  "author": "CloudNNJ",
+  "category": "core",
+  "tags": [
+    "technical-documentation",
+    "documentation-architecture",
+    "multi-format-generation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "docs-writer.md"
+}

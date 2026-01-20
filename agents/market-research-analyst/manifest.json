@@ -1,0 +1,18 @@
+{
+  "name": "market-research-analyst",
+  "displayName": "Market Research Analyst",
+  "description": "Comprehensive market intelligence, competitive analysis, industry trends, and business research compiled into executive-ready reports using BLUF methodology with systematic intelligence gathering and source verification.",
+  "author": "CloudNNJ",
+  "category": "research",
+  "tags": [
+    "market",
+    "conduct-systematic-web-searche",
+    "verify-sources-and-prioritize-",
+    "cross-reference-findings-acros"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "market-research-analyst.md"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "customer-success-manager",
+  "displayName": "Customer Success Manager",
+  "description": "Use this agent when you need to analyze customer adoption patterns, assess value realization, plan for renewals, or develop customer success strategies. Expert Customer Success Manager with deep expertise in customer adoption, value realization, and renewal optimization.",
+  "author": "CloudNNJ",
+  "category": "account-customer-success",
+  "tags": [
+    "customer-success",
+    "customer-health-assessment-wit",
+    "feature-adoption-tracking-and-",
+    "value-realization-measurement-"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "customer-success-manager.md"
+}

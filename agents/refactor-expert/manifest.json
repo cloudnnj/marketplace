@@ -1,0 +1,17 @@
+{
+  "name": "refactor-expert",
+  "displayName": "Refactor Expert",
+  "description": "Code refactoring specialist focused on clean architecture, SOLID principles, and technical debt reduction. Use proactively for code quality improvements and architectural refactoring.",
+  "author": "CloudNNJ",
+  "category": "core",
+  "tags": [
+    "code-refactoring",
+    "code-smell-detection",
+    "design-pattern-application"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "refactor-expert.md"
+}

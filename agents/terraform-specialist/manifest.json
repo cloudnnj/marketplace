@@ -1,0 +1,18 @@
+{
+  "name": "terraform-specialist",
+  "displayName": "Terraform Specialist",
+  "description": "Write advanced Terraform modules, manage state files, and implement IaC best practices. Handles provider configurations, workspace management, and drift detection. Use PROACTIVELY for Terraform modules, state issues, or IaC automation.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "devops",
+    "terraform-module-design-with-r",
+    "remote-state-management-(s3,-a",
+    "provider-configuration-and-ver"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "terraform-specialist.md"
+}

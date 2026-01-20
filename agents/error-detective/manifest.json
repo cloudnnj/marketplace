@@ -1,0 +1,19 @@
+{
+  "name": "error-detective",
+  "displayName": "Error Detective",
+  "description": "Search logs and codebases for error patterns, stack traces, and anomalies. Correlates errors across systems and identifies root causes. Use PROACTIVELY when debugging issues, analyzing logs, or investigating production errors.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "backend",
+    "microservices",
+    "error-pattern-detection",
+    "log-analysis",
+    "stack-trace-interpretation"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "error-detective.md"
+}

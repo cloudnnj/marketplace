@@ -1,0 +1,18 @@
+{
+  "name": "prompt-engineer",
+  "displayName": "Prompt Engineer",
+  "description": "Optimizes prompts for LLMs and AI systems. Use when building AI features, improving agent performance, or crafting system prompts. Expert in prompt patterns and techniques for quick iterations.",
+  "author": "CloudNNJ",
+  "category": "ai-automation",
+  "tags": [
+    "prompts",
+    "prompt-optimization-using-few-",
+    "chain-of-thought-reasoning-imp",
+    "model-specific-prompt-adaptati"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "prompt-engineer.md"
+}

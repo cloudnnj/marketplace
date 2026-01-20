@@ -1,0 +1,18 @@
+{
+  "name": "sprint-prioritizer",
+  "displayName": "Sprint Prioritizer",
+  "description": "Sprint planning specialist for maximizing value delivery in 6-day cycles. Use for feature prioritization, roadmap planning, and trade-off decisions.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "management",
+    "sprint-planning-excellence",
+    "prioritization-frameworks",
+    "stakeholder-management"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "sprint-prioritizer.md"
+}

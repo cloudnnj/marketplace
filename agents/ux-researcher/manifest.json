@@ -1,0 +1,18 @@
+{
+  "name": "ux-researcher",
+  "displayName": "Ux Researcher",
+  "description": "UX research specialist for user research, behavior analysis, journey mapping, and design validation. Use for understanding user needs and validating design decisions.",
+  "author": "CloudNNJ",
+  "category": "design",
+  "tags": [
+    "ux",
+    "rapid-research-methodologies",
+    "user-journey-mapping",
+    "behavioral-analysis"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "ux-researcher.md"
+}

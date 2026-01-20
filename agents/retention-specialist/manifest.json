@@ -1,0 +1,18 @@
+{
+  "name": "retention-specialist",
+  "displayName": "Retention Specialist",
+  "description": "Use this agent when you need customer retention analysis, churn reduction strategies, loyalty program design, and customer lifecycle optimization. Senior Retention Specialist specializing in building comprehensive retention strategies that maximize customer lifetime value.",
+  "author": "CloudNNJ",
+  "category": "account-customer-success",
+  "tags": [
+    "customer-success",
+    "predictive-churn-modeling-usin",
+    "customer-health-scoring-with-r",
+    "retention-program-design-with-"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "retention-specialist.md"
+}

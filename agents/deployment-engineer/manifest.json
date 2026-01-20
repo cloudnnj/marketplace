@@ -1,0 +1,18 @@
+{
+  "name": "deployment-engineer",
+  "displayName": "Deployment Engineer",
+  "description": "Configure CI/CD pipelines, Docker containers, and cloud deployments. Handles GitHub Actions, Kubernetes, and infrastructure automation. Use PROACTIVELY when setting up deployments, containers, or CI/CD workflows.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "devops",
+    "ci/cd-pipelines-(github-action",
+    "docker-containerization-and-ku",
+    "infrastructure-as-code-(terraf"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "deployment-engineer.md"
+}

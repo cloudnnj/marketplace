@@ -1,0 +1,18 @@
+{
+  "name": "trend-researcher",
+  "displayName": "Trend Researcher",
+  "description": "Market trend analyst for identifying viral opportunities and emerging behaviors. Use for trend detection, market opportunities, and competitive analysis.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "research",
+    "viral-trend-detection",
+    "app-store-intelligence",
+    "user-behavior-analysis"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "trend-researcher.md"
+}

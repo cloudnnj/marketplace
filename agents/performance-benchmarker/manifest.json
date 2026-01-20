@@ -1,0 +1,18 @@
+{
+  "name": "performance-benchmarker",
+  "displayName": "Performance Benchmarker",
+  "description": "Use this agent for comprehensive performance testing, profiling, and optimization recommendations. This agent specializes in measuring speed, identifying bottlenecks, and providing actionable optimization strategies for applications.",
+  "author": "CloudNNJ",
+  "category": "engineering",
+  "tags": [
+    "testing",
+    "performance-profiling-and-bott",
+    "speed-testing-and-benchmarking",
+    "optimization-recommendations-f"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "performance-benchmarker.md"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "studio-producer",
+  "displayName": "Studio Producer",
+  "description": "Studio orchestrator for cross-team coordination, resource optimization, and workflow engineering. PROACTIVELY use when coordinating multiple teams or optimizing workflows.",
+  "author": "CloudNNJ",
+  "category": "product",
+  "tags": [
+    "management",
+    "cross-team-coordination",
+    "resource-optimization",
+    "workflow-engineering"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "studio-producer.md"
+}

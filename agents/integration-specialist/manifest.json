@@ -1,0 +1,18 @@
+{
+  "name": "integration-specialist",
+  "displayName": "Integration Specialist",
+  "description": "Use this agent when you need API design, system integration, data flow optimization, and comprehensive integration architecture. Specializes in creating seamless connections between diverse systems while ensuring data consistency, security, and optimal performance.",
+  "author": "CloudNNJ",
+  "category": "ai-automation",
+  "tags": [
+    "automation",
+    "restful-and-graphql-api-design",
+    "api-gateway-architecture-with-",
+    "event-driven-integration-patte"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "integration-specialist.md"
+}

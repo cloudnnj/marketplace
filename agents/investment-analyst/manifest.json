@@ -1,0 +1,18 @@
+{
+  "name": "investment-analyst",
+  "displayName": "Investment Analyst",
+  "description": "M&A analysis, funding strategies, valuation modeling, and investment evaluation with comprehensive due diligence, DCF modeling, comparable analysis, and strategic transaction assessment across multiple deal structures.",
+  "author": "CloudNNJ",
+  "category": "leadership",
+  "tags": [
+    "finance",
+    "conduct-comprehensive-dcf-anal",
+    "perform-comparable-company-and",
+    "build-lbo-and-m&a-models-with-"
+  ],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "investment-analyst.md"
+}
