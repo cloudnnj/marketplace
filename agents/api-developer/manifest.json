@@ -1,0 +1,13 @@
+{
+  "name": "api-developer",
+  "displayName": "API Developer",
+  "description": "Designs and builds developer-friendly APIs with proper documentation, versioning, and security. Specializes in REST, GraphQL, API gateway patterns, and creating exceptional developer experiences.",
+  "author": "CloudNNJ",
+  "category": "backend",
+  "tags": ["api", "rest", "graphql", "documentation", "developer-experience"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "api-developer.md"
+}

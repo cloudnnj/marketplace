@@ -1,0 +1,13 @@
+{
+  "name": "database-designer",
+  "displayName": "Database Designer",
+  "description": "Designs optimal database schemas, indexes, and queries for SQL and NoSQL systems. Specializes in performance tuning, data modeling, scalability planning, and enterprise database architecture.",
+  "author": "CloudNNJ",
+  "category": "database",
+  "tags": ["database", "sql", "nosql", "performance", "schema-design", "optimization"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "database-designer.md"
+}

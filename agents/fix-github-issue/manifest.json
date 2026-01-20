@@ -1,0 +1,13 @@
+{
+  "name": "fix-github-issue",
+  "displayName": "Fix GitHub Issue (Interactive)",
+  "description": "Interactive GitHub issue fixing with clarification workflow and automated PR creation. Asks clarifying questions when needed before implementing fixes to ensure accurate solutions.",
+  "author": "CloudNNJ",
+  "category": "devops",
+  "tags": ["github", "issue", "bugfix", "interactive", "pr-automation"],
+  "version": "2.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "fix-github-issue.md"
+}

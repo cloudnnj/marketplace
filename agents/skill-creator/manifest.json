@@ -1,0 +1,13 @@
+{
+  "name": "skill-creator",
+  "displayName": "Skill Creator",
+  "description": "Guide for creating effective skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations. Provides complete skill development lifecycle from planning to packaging.",
+  "author": "CloudNNJ",
+  "category": "ai",
+  "tags": ["skill", "creation", "workflow", "tools", "ai-engineering"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "SKILL.md"
+}

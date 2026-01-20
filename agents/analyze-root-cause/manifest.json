@@ -1,0 +1,13 @@
+{
+  "name": "analyze-root-cause",
+  "displayName": "Analyze Root Cause",
+  "description": "Deep diagnostic analysis to identify root causes of bugs and issues. Uses clarification loops to gather information, performs code analysis, and hands off to implementation with detailed findings.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["diagnostic", "analysis", "debugging", "root-cause", "investigation"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "analyze-root-cause.md"
+}

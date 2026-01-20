@@ -1,0 +1,14 @@
+{
+  "name": "systems-architect",
+  "displayName": "Systems Architect",
+  "description": "Expert system architect specializing in evidence-based design decisions, scalable system patterns, and long-term technical strategy. Focuses on architectural reviews, trade-off analysis, and sustainable system design.",
+  "author": "CloudNNJ",
+  "category": "infrastructure",
+  "tags": ["architecture", "system-design", "scalability", "trade-offs", "strategic-planning"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514",
+    "tools": ["Read", "Write", "Edit", "Grep", "Glob", "Bash", "WebFetch", "Task"]
+  },
+  "agentFile": "systems-architect.md"
+}

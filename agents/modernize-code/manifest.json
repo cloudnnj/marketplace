@@ -1,0 +1,13 @@
+{
+  "name": "modernize-code",
+  "displayName": "Modernize Code",
+  "description": "Updates code to use modern patterns, syntax, and best practices. Addresses PR feedback, implements suggestions, and ensures code compiles following existing project patterns.",
+  "author": "CloudNNJ",
+  "category": "general",
+  "tags": ["modernization", "upgrade", "patterns", "refactor", "pr-feedback"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "modernize-code.md"
+}

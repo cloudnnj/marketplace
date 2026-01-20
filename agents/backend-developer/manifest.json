@@ -1,0 +1,13 @@
+{
+  "name": "backend-developer",
+  "displayName": "Backend Developer",
+  "description": "Develops robust backend systems with focus on scalability, security, and maintainability. Handles API design, database optimization, server architecture, microservices, and infrastructure-as-code practices.",
+  "author": "CloudNNJ",
+  "category": "backend",
+  "tags": ["backend", "api", "database", "microservices", "scalability", "security"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "backend-developer.md"
+}

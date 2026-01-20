@@ -1,0 +1,13 @@
+{
+  "name": "code-reviewer",
+  "displayName": "Code Reviewer",
+  "description": "Performs thorough code reviews focusing on security, performance, maintainability, and best practices. Provides detailed feedback with actionable improvements and mentors developers through constructive analysis.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["code-review", "security", "performance", "quality", "best-practices"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "code-reviewer.md"
+}

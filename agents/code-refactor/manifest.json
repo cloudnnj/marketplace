@@ -1,0 +1,13 @@
+{
+  "name": "code-refactor",
+  "displayName": "Code Refactor",
+  "description": "Improves code structure, performance, and maintainability through systematic refactoring. Specializes in legacy modernization, technical debt reduction, and incremental improvements while preserving functionality.",
+  "author": "CloudNNJ",
+  "category": "general",
+  "tags": ["refactoring", "technical-debt", "modernization", "code-quality", "patterns"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "code-refactor.md"
+}

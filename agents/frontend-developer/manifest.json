@@ -1,0 +1,13 @@
+{
+  "name": "frontend-developer",
+  "displayName": "Frontend Developer",
+  "description": "Builds modern, responsive frontends with React, Vue, or vanilla JS. Specializes in component architecture, state management, performance optimization, and accessibility compliance.",
+  "author": "CloudNNJ",
+  "category": "frontend",
+  "tags": ["frontend", "react", "vue", "css", "accessibility", "performance"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "frontend-developer.md"
+}

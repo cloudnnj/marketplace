@@ -1,0 +1,13 @@
+{
+  "name": "build-feature",
+  "displayName": "Build Feature",
+  "description": "Orchestrated full-stack feature development with specialized agents, parallel execution, testing, deployment, and PR creation. Coordinates database, API, backend, and frontend implementation.",
+  "author": "CloudNNJ",
+  "category": "general",
+  "tags": ["feature", "orchestration", "full-stack", "workflow", "parallel"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "build-feature.md"
+}

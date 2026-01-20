@@ -1,0 +1,13 @@
+{
+  "name": "aws-consult",
+  "displayName": "AWS Architecture Consulting",
+  "description": "Expert AWS architecture guidance and solutions. Provides recommendations based on AWS Well-Architected Framework with focus on cost, security, and best practices without modifying code.",
+  "author": "CloudNNJ",
+  "category": "infrastructure",
+  "tags": ["aws", "architecture", "infrastructure", "consulting", "cloud"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "aws-consult.md"
+}

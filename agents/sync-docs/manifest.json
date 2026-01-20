@@ -1,0 +1,13 @@
+{
+  "name": "sync-docs",
+  "displayName": "Sync Documentation",
+  "description": "Automatically synchronizes project documentation with current codebase state. Updates README.md, CLAUDE.md, and technical roadmap non-interactively with commit and PR creation.",
+  "author": "CloudNNJ",
+  "category": "documentation",
+  "tags": ["documentation", "sync", "automation", "maintenance", "readme"],
+  "version": "2.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "sync-docs.md"
+}

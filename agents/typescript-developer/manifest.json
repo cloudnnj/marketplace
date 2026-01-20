@@ -1,0 +1,13 @@
+{
+  "name": "typescript-developer",
+  "displayName": "TypeScript Developer",
+  "description": "Builds type-safe applications with advanced TypeScript features, generics, and strict type checking. Specializes in enterprise TypeScript architecture, type system design, and eliminating runtime errors through types.",
+  "author": "CloudNNJ",
+  "category": "backend",
+  "tags": ["typescript", "type-safety", "generics", "enterprise", "strict-mode"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "typescript-developer.md"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fix-bug",
+  "displayName": "Fix Bug (Orchestrated)",
+  "description": "Orchestrated bug investigation and resolution with specialized agents for root cause analysis, implementation, and verification. Handles complex multi-domain bugs systematically.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["bugfix", "orchestration", "debugging", "root-cause", "workflow"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "fix-bug.md"
+}

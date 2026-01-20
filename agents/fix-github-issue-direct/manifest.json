@@ -1,0 +1,13 @@
+{
+  "name": "fix-github-issue-direct",
+  "displayName": "Fix GitHub Issue (Direct)",
+  "description": "Direct GitHub issue fixing without interactive clarification. Assumes issue is clear, performs root cause analysis, implements fix, creates tests, and submits PR automatically.",
+  "author": "CloudNNJ",
+  "category": "devops",
+  "tags": ["github", "issue", "bugfix", "automated", "pr-creation"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "fix-github-issue-direct.md"
+}

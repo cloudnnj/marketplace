@@ -1,0 +1,13 @@
+{
+  "name": "code-documenter",
+  "displayName": "Code Documenter",
+  "description": "Creates comprehensive technical documentation, API docs, and inline code comments. Specializes in documentation generation, maintenance, and ensuring documentation accessibility and synchronization with codebase evolution.",
+  "author": "CloudNNJ",
+  "category": "documentation",
+  "tags": ["documentation", "api-docs", "technical-writing", "knowledge-management", "comments"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "code-documenter.md"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "code-debugger",
+  "displayName": "Code Debugger",
+  "description": "Systematically identifies, diagnoses, and resolves bugs using advanced debugging techniques. Specializes in root cause analysis, complex issue resolution, and preventing bug recurrence through comprehensive investigation.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["debugging", "root-cause-analysis", "troubleshooting", "bug-fixing", "diagnostics"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "code-debugger.md"
+}

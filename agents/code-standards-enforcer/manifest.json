@@ -1,0 +1,13 @@
+{
+  "name": "code-standards-enforcer",
+  "displayName": "Code Standards Enforcer",
+  "description": "Enforces coding standards, style guides, and architectural patterns across projects. Specializes in linting configuration, code review automation, and maintaining team consistency through quality gates.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["standards", "linting", "code-quality", "automation", "consistency"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "code-standards-enforcer.md"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bugfix-orchestrator",
+  "displayName": "Bugfix Orchestrator",
+  "description": "Master orchestrator for systematic bug investigation and resolution. Coordinates diagnostic agents through root cause analysis, fix implementation, verification, and deployment for multi-domain issues.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["orchestration", "bug-fixing", "debugging", "workflow", "multi-agent"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "bugfix-orchestrator.md"
+}

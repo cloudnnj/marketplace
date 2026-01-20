@@ -1,0 +1,13 @@
+{
+  "name": "init-agent",
+  "displayName": "Init Agent",
+  "description": "Initializes AGENTS.md and CLAUDE.md files for new agent sessions. Analyzes project structure, tech stack, and conventions to create comprehensive context documentation.",
+  "author": "CloudNNJ",
+  "category": "documentation",
+  "tags": ["init", "agents", "setup", "documentation", "onboarding"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "init-agent.md"
+}

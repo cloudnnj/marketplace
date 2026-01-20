@@ -1,0 +1,13 @@
+{
+  "name": "improve-pr",
+  "displayName": "Improve Pull Request",
+  "description": "Updates code based on feedback from Pull Request Code Reviews. Systematically fixes identified issues, ensures tests pass, and updates PR status with implementation details.",
+  "author": "CloudNNJ",
+  "category": "devops",
+  "tags": ["pull-request", "code-review", "feedback", "fixes", "automation"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "improve-pr.md"
+}

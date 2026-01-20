@@ -1,0 +1,13 @@
+{
+  "name": "code-security-auditor",
+  "displayName": "Code Security Auditor",
+  "description": "Comprehensive security analysis and vulnerability detection for codebases. Specializes in threat modeling, secure coding practices, OWASP Top 10, compliance auditing, and penetration testing preparation.",
+  "author": "CloudNNJ",
+  "category": "security",
+  "tags": ["security", "vulnerability", "owasp", "compliance", "threat-modeling", "audit"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "code-security-auditor.md"
+}

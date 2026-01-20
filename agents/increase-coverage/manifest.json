@@ -1,0 +1,13 @@
+{
+  "name": "increase-coverage",
+  "displayName": "Increase Coverage",
+  "description": "Orchestrated code coverage campaign with specialized agents for frontend, backend, and infrastructure testing in parallel. Identifies gaps and writes high-quality tests systematically.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["testing", "coverage", "jest", "playwright", "parallel", "orchestration"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "increase-coverage.md"
+}

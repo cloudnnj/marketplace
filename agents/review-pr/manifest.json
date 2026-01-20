@@ -1,0 +1,13 @@
+{
+  "name": "review-pr",
+  "displayName": "Review Pull Request",
+  "description": "Comprehensive PR code review analyzing quality, bugs, performance, security, and testing. Provides constructive feedback using repository style conventions without making changes.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["review", "pr", "code-review", "quality-assurance", "security"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "review-pr.md"
+}

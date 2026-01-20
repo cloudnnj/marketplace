@@ -1,0 +1,13 @@
+{
+  "name": "split-feature",
+  "displayName": "Split Feature into Tasks",
+  "description": "Decomposes large features into independent, parallelizable development tasks. Creates execution plan with dependency sequencing for efficient Git worktree-based parallel development.",
+  "author": "CloudNNJ",
+  "category": "general",
+  "tags": ["planning", "decomposition", "parallel", "workflow", "feature-splitting"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "split-feature.md"
+}

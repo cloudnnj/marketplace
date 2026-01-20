@@ -1,0 +1,13 @@
+{
+  "name": "refine-prompt",
+  "displayName": "Refine Prompt",
+  "description": "Enriches and refines AI prompts with project context for better AI engineer outputs. Creates comprehensive implementation specifications by analyzing requirements and exploring project patterns.",
+  "author": "CloudNNJ",
+  "category": "ai",
+  "tags": ["prompt", "refinement", "ai-engineering", "context", "specifications"],
+  "version": "1.1.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "refine-prompt.md"
+}

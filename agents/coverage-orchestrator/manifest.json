@@ -1,0 +1,13 @@
+{
+  "name": "coverage-orchestrator",
+  "displayName": "Coverage Orchestrator",
+  "description": "Master orchestrator for systematic code coverage increase across frontend, backend, and infrastructure. Coordinates specialized agents to identify coverage gaps and write high-quality tests in parallel.",
+  "author": "CloudNNJ",
+  "category": "testing",
+  "tags": ["testing", "coverage", "orchestration", "jest", "playwright", "parallel"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "coverage-orchestrator.md"
+}

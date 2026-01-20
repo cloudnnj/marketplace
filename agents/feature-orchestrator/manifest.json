@@ -1,0 +1,13 @@
+{
+  "name": "feature-orchestrator",
+  "displayName": "Feature Orchestrator",
+  "description": "Master orchestrator for full-stack feature development. Coordinates specialized agents in optimal sequence based on feature scope, ensuring TypeScript best practices, infrastructure alignment, and project consistency.",
+  "author": "CloudNNJ",
+  "category": "general",
+  "tags": ["orchestration", "full-stack", "feature-development", "workflow", "multi-agent"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "feature-orchestrator.md"
+}

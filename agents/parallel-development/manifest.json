@@ -1,0 +1,13 @@
+{
+  "name": "parallel-development",
+  "displayName": "Parallel Development",
+  "description": "Develops multiple features simultaneously using Git worktrees to avoid context switching. Creates separate branches for independent features with recommended merge order.",
+  "author": "CloudNNJ",
+  "category": "devops",
+  "tags": ["parallel", "worktrees", "git", "multi-feature", "workflow"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "parallel-development.md"
+}

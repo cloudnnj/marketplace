@@ -1,0 +1,13 @@
+{
+  "name": "create-pr",
+  "displayName": "Create Pull Request",
+  "description": "Prepares current branch for PR submission with quality checks and automated creation. Runs tests, verifies code quality, pushes changes, and creates comprehensive PR descriptions.",
+  "author": "CloudNNJ",
+  "category": "devops",
+  "tags": ["pr", "pull-request", "git", "quality-check", "automation"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-sonnet-4-20250514"
+  },
+  "agentFile": "create-pr.md"
+}
