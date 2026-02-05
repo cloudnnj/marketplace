@@ -1,0 +1,13 @@
+{
+  "name": "podcast-script-generator",
+  "displayName": "Podcast Script Generator",
+  "description": "Gathers product information, researches industry trends, and synthesizes everything into a two-person podcast script tailored for software engineers. Outputs scripts formatted for text-to-speech conversion with natural conversational flow, speaker labels, and pacing cues.",
+  "author": "CloudNNJ",
+  "category": "ai-automation",
+  "tags": ["podcast", "content-generation", "text-to-speech", "research", "developer-marketing", "script-writing"],
+  "version": "1.0.0",
+  "config": {
+    "model": "claude-opus-4-20250514"
+  },
+  "agentFile": "podcast-script-generator.md"
+}
