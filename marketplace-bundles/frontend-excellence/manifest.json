@@ -1,0 +1,18 @@
+{
+  "name": "frontend-excellence",
+  "displayName": "Frontend Excellence Bundle",
+  "itemType": "bundle",
+  "version": "1.0.0",
+  "domain": "software",
+  "description": "Complete toolkit for React and frontend quality: component testing, visual regression detection, accessibility audits, and performance optimization.",
+  "author": "CrewDeck",
+  "tags": ["software", "frontend", "react", "testing", "performance"],
+  "components": [
+    { "itemType": "agent", "name": "frontend-developer", "path": "./agents/frontend-developer.md" },
+    { "itemType": "agent", "name": "visual-regression-tester", "path": "./agents/visual-regression-tester.md" },
+    { "itemType": "skill", "name": "accessibility-test-automation", "path": "./skills/accessibility-test-automation" },
+    { "itemType": "skill", "name": "performance-profiling", "path": "./skills/performance-profiling" },
+    { "itemType": "command", "name": "component-gen", "path": "./commands/component-gen.md" },
+    { "itemType": "hook", "name": "component-storybook-sync", "path": "./hooks/component-storybook-sync.sh" }
+  ]
+}

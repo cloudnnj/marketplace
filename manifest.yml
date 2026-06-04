@@ -1,0 +1,472 @@
+---
+# CrewDeck Marketplace - Repository Manifest
+# This manifest documents the AI agent marketplace for the CrewDeck platform
+# Updated: 2026-06-04
+
+project:
+  name: CrewDeck Marketplace
+  description: A comprehensive collection of AI agents, commands, skills, and hooks for intelligent automation and development workflows
+  tagline: "JIRA for AI Agents - Instant access to specialized development tools and automation workflows"
+  version: "0.38.0"
+  license: MIT
+  repository: "https://github.com/cloudnnj/marketplace"
+
+overview:
+  purpose: |
+    The CrewDeck Marketplace provides a centralized hub for specialized AI agents, automated commands,
+    extended capabilities (skills), and event-driven automation (hooks) that power intelligent workflows
+    across development teams. This marketplace enables developers to instantly access pre-configured
+    AI agents for complex tasks like bug fixing, feature development, code review, and architectural guidance.
+
+  target_audience:
+    - AI engineers building LLM-powered applications
+    - Development teams using AI for automation
+    - CrewDeck platform users
+    - AI researchers and enthusiasts
+
+  key_features:
+    - 164+ AI agents across 20 categories
+    - 33 specialized workflow commands
+    - 17 extended capability skills
+    - 10 automated event-driven hooks
+    - Production-ready implementations
+    - Consistent quality standards
+
+directory_structure:
+  agents:
+    path: "./agents/"
+    description: "AI agent definitions - specialized autonomous tools for complex tasks"
+    count: 164
+    structure:
+      - folder_name: "{agent-name}/"
+        contents:
+          - manifest.json: "Agent metadata (required)"
+          - "{agent-name}.md": "Agent definition and system prompt"
+          - resources: "Optional scripts, references, and assets"
+    manifest_schema:
+      name: "Unique identifier (kebab-case)"
+      displayName: "Human-readable name"
+      description: "One-line summary of capabilities"
+      author: "Author/organization name"
+      category: "Agent category classification"
+      tags: "Array of relevant tags"
+      version: "Semantic version (e.g., 1.0.0)"
+      config:
+        model: "Claude model to use (e.g., claude-sonnet-4-20250514)"
+      agentFile: "Path to agent definition markdown"
+
+  commands:
+    path: "./commands/"
+    description: "Workflow commands - specialized multi-step automation routines"
+    count: 33
+    structure:
+      - file_name: "{command-name}.md"
+        format: "Markdown with YAML frontmatter"
+        frontmatter_fields:
+          - title: "Human-readable command name"
+          - description: "What the command does"
+          - category: "Functional category"
+          - tags: "Array of tags"
+          - version: "Semantic version"
+          - model: "Model specification (opus/sonnet/haiku)"
+          - examples: "Usage examples"
+
+  skills:
+    path: "./skills/"
+    description: "Extended capabilities - specialized tools and workflows"
+    count: 17
+    structure:
+      - folder_name: "{skill-name}/"
+        contents:
+          - SKILL.md: "Skill definition with capabilities"
+          - resources: "Templates, scripts, and reference files"
+    purpose: "Extend Claude's capabilities with specialized knowledge, templates, and integrations"
+
+  hooks:
+    path: "./hooks/"
+    description: "Automated event-driven scripts - execute on system events"
+    count: 10
+    structure:
+      - folder_name: "{hook-name}/"
+        contents:
+          - manifest.json: "Hook metadata"
+          - "{hook-name}.json": "Hook configuration and event bindings"
+          - "{hook-name}.sh": "Executable hook script"
+          - README.md: "Documentation"
+
+  marketplace_bundles:
+    path: "./marketplace-bundles/"
+    description: "Pre-configured packages grouping related agents, commands, skills, and hooks into themed collections"
+    count: 2
+    structure:
+      - folder_name: "{bundle-name}/"
+        contents:
+          - manifest.json: "Bundle metadata and component registry"
+          - agents: "Custom agents specific to this bundle"
+          - commands: "Workflow commands for bundle features"
+          - skills: "Specialized skills for bundle domain"
+          - hooks: "Automated event-driven scripts"
+    manifest_schema:
+      name: "Unique bundle identifier (kebab-case)"
+      displayName: "Human-readable bundle name"
+      itemType: "Always 'bundle'"
+      version: "Semantic version (e.g., 1.0.0)"
+      domain: "Domain category (e.g., sales, software)"
+      description: "One-line summary of bundle purpose and contents"
+      author: "Author/organization name"
+      tags: "Array of relevant tags"
+      components: "Array of included agents, commands, skills, and hooks"
+
+    bundles:
+      - name: "sales-operations"
+        displayName: "Sales Operations Accelerator"
+        domain: "sales"
+        version: "1.0.0"
+        description: "Sales team automation: lead qualification, pipeline management, forecasting, and customer success metrics tracking."
+        author: "CrewDeck"
+        tags: ["sales", "operations", "crm", "forecasting", "analytics"]
+        components:
+          agents:
+            - name: "lead-qualifier"
+              description: "Qualifies and scores leads"
+              path: "./agents/lead-qualifier.md"
+            - name: "pipeline-analyzer"
+              description: "Analyzes sales pipeline metrics"
+              path: "./agents/pipeline-analyzer.md"
+          skills:
+            - name: "forecast-modeling"
+              description: "Revenue forecasting and projection modeling"
+              path: "./skills/forecast-modeling"
+            - name: "customer-health-scoring"
+              description: "Customer health and success metrics"
+              path: "./skills/customer-health-scoring"
+          commands:
+            - name: "weekly-forecast-report"
+              description: "Generate weekly sales forecast reports"
+              path: "./commands/weekly-forecast-report.md"
+            - name: "churn-risk-alert"
+              description: "Alert on customers at risk of churn"
+              path: "./commands/churn-risk-alert.md"
+          hooks:
+            - name: "daily-pipeline-sync"
+              description: "Sync pipeline data daily"
+              path: "./hooks/daily-pipeline-sync.sh"
+
+      - name: "frontend-excellence"
+        displayName: "Frontend Excellence Bundle"
+        domain: "software"
+        version: "1.0.0"
+        description: "Complete toolkit for React and frontend quality: component testing, visual regression detection, accessibility audits, and performance optimization."
+        author: "CrewDeck"
+        tags: ["software", "frontend", "react", "testing", "performance"]
+        components:
+          agents:
+            - name: "frontend-developer"
+              description: "React component development"
+              path: "./agents/frontend-developer.md"
+            - name: "visual-regression-tester"
+              description: "Visual regression testing and detection"
+              path: "./agents/visual-regression-tester.md"
+          skills:
+            - name: "accessibility-test-automation"
+              description: "WCAG compliance and accessibility testing"
+              path: "./skills/accessibility-test-automation"
+            - name: "performance-profiling"
+              description: "Performance analysis and optimization"
+              path: "./skills/performance-profiling"
+          commands:
+            - name: "component-gen"
+              description: "Generate React components from specs"
+              path: "./commands/component-gen.md"
+          hooks:
+            - name: "component-storybook-sync"
+              description: "Auto-sync components to Storybook"
+              path: "./hooks/component-storybook-sync.sh"
+
+  metadata:
+    path: "./package.json"
+    description: "Project dependencies, build scripts, and configuration"
+
+agent_categories:
+  testing_quality:
+    count: 10
+    examples: ["analyze-root-cause", "code-debugger", "code-reviewer", "coverage-orchestrator"]
+    focus: "Test automation, debugging, quality assurance, and coverage tracking"
+
+  development:
+    count: 6
+    examples: ["build-feature", "code-refactor", "feature-orchestrator", "split-feature"]
+    focus: "Feature development, refactoring, code quality, and architecture"
+
+  devops_automation:
+    count: 5
+    examples: ["create-pr", "fix-github-issue", "parallel-development", "improve-pr"]
+    focus: "CI/CD, automation, release management, GitHub integration"
+
+  documentation:
+    count: 3
+    examples: ["code-documenter", "init-agent", "sync-docs"]
+    focus: "Technical documentation, API docs, inline comments, and knowledge sync"
+
+  backend_development:
+    count: 3
+    examples: ["api-developer", "backend-developer", "typescript-developer"]
+    focus: "API design, backend systems, type-safe development"
+
+  ai_integration:
+    count: 3
+    examples: ["mcp-builder", "refine-prompt", "skill-creator"]
+    focus: "AI infrastructure, prompt engineering, MCP server development"
+
+  infrastructure:
+    count: 2
+    examples: ["aws-consult", "systems-architect"]
+    focus: "Cloud architecture, system design, scalability"
+
+  security:
+    count: 2
+    examples: ["code-security-auditor", "security-auditor"]
+    focus: "Security analysis, vulnerability detection, compliance"
+
+  frontend_design:
+    count: 2
+    examples: ["database-designer", "frontend-developer"]
+    focus: "UI/UX development, database design, responsive layouts"
+
+  ai_automation:
+    count: 10
+    examples: ["ai-engineer", "automation-architect", "ml-engineer", "workflow-analyst"]
+    focus: "LLM applications, automation, machine learning, prompt engineering"
+
+  account_customer_success:
+    count: 7
+    examples: ["account-executive", "customer-success-manager", "sales-engineer"]
+    focus: "Account management, customer success, revenue optimization"
+
+  engineering:
+    count: 47
+    examples: ["api-documenter", "cloud-architect", "data-engineer", "golang-pro"]
+    focus: "Language-specific development, API design, DevOps, specialized engineering"
+
+  core:
+    count: 8
+    examples: ["config-safety-reviewer", "performance-tuner", "test-engineer"]
+    focus: "Core engineering practices, performance, reliability"
+
+  design:
+    count: 7
+    examples: ["brand-guardian", "ui-designer", "ux-researcher"]
+    focus: "Brand identity, UI/UX, visual design, user research"
+
+  leadership_finance:
+    count: 14
+    examples: ["business-analyst", "compliance-officer", "financial-analyst"]
+    focus: "Business strategy, finance, compliance, risk management"
+
+  marketing_content:
+    count: 11
+    examples: ["content-creator", "content-marketer", "growth-hacker"]
+    focus: "Marketing, content creation, social media, growth"
+
+  operations:
+    count: 6
+    examples: ["customer-support", "analytics-reporter", "operations-optimizer"]
+    focus: "Customer support, operations, analytics, revenue tracking"
+
+  product:
+    count: 9
+    examples: ["product-manager", "prd-writer", "feedback-synthesizer"]
+    focus: "Product management, PRD writing, launch orchestration"
+
+  research:
+    count: 7
+    examples: ["deep-research-specialist", "market-research-analyst", "competitive-intelligence"]
+    focus: "Market research, competitive analysis, trend research"
+
+statistics:
+  total_agents: 164
+  total_commands: 33
+  total_skills: 17
+  total_hooks: 10
+  total_categories: 20
+  estimated_loc: "1000+ pages of agent definitions"
+
+technology_stack:
+  runtime: "Node.js with TypeScript"
+  core_dependencies:
+    - "@anthropic-ai/claude-agent-sdk@^0.2.116"
+    - "electron@^41.2.0"
+    - "fastify@^5.8.5"
+    - "react@^19.2.5"
+    - "drizzle-orm@^0.45.1"
+    - "better-sqlite3@^12.9.0"
+    - "zod@^4.3.5"
+    - "zustand@^5.0.12"
+
+  build_tools:
+    - "TypeScript@^5.5.3"
+    - "electron-vite@^5.0.0"
+    - "electron-builder@^26.0.0"
+    - "Vite@^7.3.2"
+
+  linting_testing:
+    - "ESLint@^10.0.3"
+    - "Vitest@^3.2.4"
+    - "Playwright@^1.58.2"
+
+development_guidelines:
+  adding_new_agents:
+    steps:
+      - "1. Create folder: mkdir -p agents/{agent-name}"
+      - "2. Create manifest.json with required metadata"
+      - "3. Create {agent-name}.md with system prompt and capabilities"
+      - "4. Follow naming conventions (kebab-case)"
+      - "5. Use semantic versioning"
+      - "6. Add meaningful tags for discoverability"
+      - "7. Test the agent definition"
+      - "8. Commit with descriptive message: 'feat: add {agent-name}'"
+
+  validation_rules:
+    manifest:
+      - "name must match folder name"
+      - "name uses only alphanumeric, dashes, underscores"
+      - "version must be semantic (X.Y.Z)"
+      - "agentFile path must exist and be readable"
+      - "author field should identify creator/org"
+      - "category must be from predefined list"
+    agent_definition:
+      - "Must be valid markdown"
+      - "Should include clear capabilities section"
+      - "Should document input/output expectations"
+      - "Should reference required tools"
+      - "Should include usage examples"
+
+  naming_conventions:
+    agents: "kebab-case (e.g., code-debugger)"
+    commands: "kebab-case (e.g., fix-github-issue)"
+    skills: "kebab-case (e.g., webapp-testing)"
+    hooks: "kebab-case (e.g., pre-commit-lint)"
+    folders: "match entity name exactly"
+
+  quality_standards:
+    - "Clear, concise descriptions"
+    - "Well-documented capabilities"
+    - "Tested and validated agents"
+    - "Consistent formatting across manifests"
+    - "Proper error handling"
+    - "Security and performance considerations"
+
+integration_points:
+  crewdeck_marketplace_scanner:
+    supported_paths:
+      - "agents/{name}/manifest.json"
+      - "commands/{name}.md"
+      - "skills/{name}/SKILL.md"
+      - "hooks/{name}/manifest.json"
+      - "marketplace/{name}/manifest.json"
+      - ".claude/marketplace/{name}/manifest.json"
+
+  marketplace_connection:
+    method: "Add repository as 'Marketplace' type in CrewDeck settings"
+    discovery: "System automatically indexes agents, commands, skills, and hooks"
+    refresh: "Periodic sync with Git repository"
+
+  git_integration:
+    repository: "GitHub repository with marketplace content"
+    branch_strategy: "Main branch contains stable releases"
+    pr_process: "Review and merge new agents/commands/skills/hooks"
+    versioning: "Semantic versioning for all components"
+
+common_workflows:
+  workflow_bug_fixing:
+    agents:
+      - "analyze-root-cause: Diagnose the issue"
+      - "code-debugger: Debug and trace the problem"
+      - "bugfix-orchestrator: Orchestrate the fix"
+      - "code-reviewer: Review the solution"
+    commands:
+      - "fix-bug: Automated bug investigation"
+      - "fix-github-issue: Direct issue fixing"
+
+  workflow_feature_development:
+    agents:
+      - "feature-orchestrator: Coordinate full-stack development"
+      - "backend-developer: Backend implementation"
+      - "frontend-developer: Frontend implementation"
+      - "code-reviewer: Quality review"
+    commands:
+      - "build-feature: Orchestrated feature creation"
+      - "split-feature: Decompose large features"
+
+  workflow_code_quality:
+    agents:
+      - "code-reviewer: Comprehensive review"
+      - "code-standards-enforcer: Enforce standards"
+      - "code-refactor: Improve structure"
+      - "code-security-auditor: Security review"
+    commands:
+      - "review-pr: PR analysis"
+      - "improve-code: Codebase evaluation"
+
+  workflow_documentation:
+    agents:
+      - "code-documenter: Technical documentation"
+      - "api-documenter: API specification"
+    commands:
+      - "sync-docs: Auto-synchronize docs"
+      - "document-feature: Feature documentation"
+
+contributing:
+  process:
+    - "Fork the repository"
+    - "Create a feature branch for new agents/commands/skills"
+    - "Add/update components following guidelines"
+    - "Test thoroughly before submission"
+    - "Submit pull request with clear description"
+    - "Address review feedback"
+    - "Merge after approval"
+
+  code_review_focus:
+    - "Adherence to naming conventions"
+    - "Completeness of manifest/metadata"
+    - "Quality of agent definitions"
+    - "Accuracy of descriptions"
+    - "Proper categorization and tags"
+    - "No duplicate functionality"
+
+  commit_message_format:
+    - "feat: add {type}/{name} - New agent/command/skill/hook"
+    - "fix: {area} - Bug fix in existing component"
+    - "docs: {area} - Documentation updates"
+    - "refactor: {area} - Code improvements"
+    - "test: {area} - Test additions"
+    - "chore: {area} - Maintenance tasks"
+
+useful_scripts:
+  stats: "npm run stats - Generate repository statistics"
+  lint: "npm run lint - Validate code quality"
+  build: "npm run build - Build the project"
+  dev: "npm run dev - Start development environment"
+  test: "npm run test - Run test suite"
+  db_migrate: "npm run db:migrate - Apply database migrations"
+  version_bump: "npm run version:minor - Update version"
+
+related_documentation:
+  readme: "README.md - Overview and quick start guide"
+  agents_dir: "agents/{name}/{name}.md - Individual agent documentation"
+  commands_dir: "commands/{name}.md - Individual command documentation"
+  skills_dir: "skills/{name}/SKILL.md - Individual skill documentation"
+  hooks_dir: "hooks/{name}/README.md - Hook documentation"
+
+metadata:
+  created: "2023-2024"
+  last_updated: "2026-06-04"
+  maintainers: "CloudNNJ"
+  contact: "aoztovi@gmail.com"
+  issues: "GitHub Issues for bug reports and feature requests"
+
+legal:
+  license: "MIT License"
+  license_path: "./LICENSE"
+  contribution_terms: "All contributions are subject to MIT License"
+  code_of_conduct: "Respectful collaboration and professional conduct required"

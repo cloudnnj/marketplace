@@ -1,0 +1,19 @@
+{
+  "name": "sales-operations",
+  "displayName": "Sales Operations Accelerator",
+  "itemType": "bundle",
+  "version": "1.0.0",
+  "domain": "sales",
+  "description": "Sales team automation: lead qualification, pipeline management, forecasting, and customer success metrics tracking.",
+  "author": "CrewDeck",
+  "tags": ["sales", "operations", "crm", "forecasting", "analytics"],
+  "components": [
+    { "itemType": "agent", "name": "lead-qualifier", "path": "./agents/lead-qualifier.md" },
+    { "itemType": "agent", "name": "pipeline-analyzer", "path": "./agents/pipeline-analyzer.md" },
+    { "itemType": "skill", "name": "forecast-modeling", "path": "./skills/forecast-modeling" },
+    { "itemType": "skill", "name": "customer-health-scoring", "path": "./skills/customer-health-scoring" },
+    { "itemType": "command", "name": "weekly-forecast-report", "path": "./commands/weekly-forecast-report.md" },
+    { "itemType": "command", "name": "churn-risk-alert", "path": "./commands/churn-risk-alert.md" },
+    { "itemType": "hook", "name": "daily-pipeline-sync", "path": "./hooks/daily-pipeline-sync.sh" }
+  ]
+}
