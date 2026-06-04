@@ -1,12 +1,14 @@
-# 🚀 Agent Marketplace
+# 🚀 CrewDeck Marketplace
 
-A curated collection of AI agents and skills for the CrewDeck Agent Marketplace. Connect this repository to instantly access specialized development agents across all your projects.
+A comprehensive collection of AI agents, commands, skills, and hooks for the CrewDeck Agent Marketplace. Instant access to specialized development tools, automation workflows, and AI-powered agents across all your projects.
+
+**Crewdeck** is an AI Project Management Platform — JIRA for AI Agents. This marketplace provides the agents, commands, skills, and hooks that power intelligent automation workflows.
 
 ## Quick Start
 
 1. **Connect to CrewDeck**: Add this repository as a "Marketplace" type in CrewDeck settings
-2. **Browse Agents**: View all available agents in the Marketplace tab
-3. **Use Agents**: Invoke agents directly in your projects
+2. **Browse Content**: View all available agents, commands, skills, and hooks in the Marketplace tab
+3. **Use Tools**: Invoke agents, run commands, and leverage skills directly in your projects
 
 ---
 
@@ -299,20 +301,98 @@ Skills are specialized tools that extend Claude's capabilities with workflows, t
 
 ---
 
+## 🎯 Available Commands
+
+Commands are specialized workflows that execute complex multi-step tasks with intelligent orchestration.
+
+| Command | Description |
+|---------|-------------|
+| **analyze-root-cause** | Deep diagnostic analysis to identify root causes of bugs and issues |
+| **architect-consult** | Expert architecture guidance and design recommendations |
+| **audit-electron-perf** | Performance auditing for Electron applications |
+| **aws-consult** | Expert AWS architecture guidance based on Well-Architected Framework |
+| **benchmark-workload** | Performance benchmarking and load testing analysis |
+| **build-feature** | Orchestrated full-stack feature development using specialized subagents |
+| **commit-and-pr** | Automated commit creation and pull request submission |
+| **create-pr** | Prepares branch for PR with quality checks and automated creation |
+| **do-release** | Release orchestration with version management and deployment |
+| **document-architecture** | Generate comprehensive architecture documentation |
+| **document-bugfix** | Document bug fixes with context and resolution details |
+| **document-feature** | Create technical documentation for new features |
+| **document-pr** | Generate documentation for pull request changes |
+| **fix-bug** | Orchestrated bug investigation with specialized agents for resolution |
+| **fix-codacy** | Fix code quality issues detected by Codacy |
+| **fix-github-issue-direct** | Direct GitHub issue fixing without interactive clarification |
+| **fix-github-issue** | Interactive GitHub issue fixing with clarification and automated PR |
+| **fix-tests** | Diagnose and fix failing test suites |
+| **improve-code** | Evaluate codebase for modularity, patterns, and best practices |
+| **improve-pr** | Update code based on PR review feedback |
+| **increase-coverage** | Orchestrated code coverage campaign across full stack |
+| **init-agent** | Initialize AGENTS.md and CLAUDE.md for new agent sessions |
+| **modernize-code** | Update code to use modern patterns, syntax, and best practices |
+| **optimize-terminal-sessions** | Optimize and enhance terminal session performance |
+| **parallel-development** | Develop multiple features simultaneously using Git worktrees |
+| **profile-memory** | Memory profiling and optimization analysis |
+| **refine-prompt** | Enrich and refine AI prompts with project context |
+| **resolve-conflicts** | Intelligent git conflict resolution |
+| **review-pr** | Comprehensive PR code review analyzing quality and security |
+| **split-feature** | Decompose large features into independent, parallelizable tasks |
+| **sync-docs** | Auto-synchronize project documentation with codebase state |
+| **update-user-guide** | Update user documentation and guides |
+| **validate-architecture** | Validate architectural patterns and consistency |
+
+---
+
+## 🔌 Available Hooks
+
+Hooks are automated scripts that execute in response to events, enabling intelligent workflows within your development environment.
+
+| Hook | Event | Description |
+|------|-------|-------------|
+| **pre-tool-use-relative-paths** | PreToolUse | Convert absolute paths to relative for Bash tool usage |
+| **pre-tool-use-gh-to-mcp** | PreToolUse | Route GitHub CLI commands to MCP for enhanced functionality |
+| **pre-commit-lint** | PreToolUse | Run linting and typecheck before commits |
+| **post-edit-schema** | PostToolUse | Auto-migrate database schema after edits |
+| **post-edit-store** | PostToolUse | Validate Zustand store patterns after modifications |
+| **post-edit-docs-index** | PostToolUse | Update documentation indices after doc changes |
+| **post-edit-types** | PostToolUse | Validate TypeScript type definitions in IPC |
+| **post-edit-renderer-imports** | PostToolUse | Validate Electron renderer process imports |
+| **post-test-coverage** | PostToolUse | Analyze and report code coverage metrics |
+| **stop-codacy-analysis** | Stop | Gracefully stop Codacy analysis on interruption |
+
+---
+
 ## 📁 Repository Structure
 
 ```
-agents/
-├── {agent-name}/
-│   ├── manifest.json      # Agent metadata (required)
-│   ├── {agent-name}.md    # Agent definition
-│   └── [resources/]       # Optional scripts, references, assets
+marketplace/
+├── agents/                 # 164 AI agent definitions
+│   ├── {agent-name}/
+│   │   ├── manifest.json      # Agent metadata (required)
+│   │   ├── {agent-name}.md    # Agent definition
+│   │   └── [resources/]       # Optional scripts, references, assets
+│   └── ...
 │
-skills/
-├── {skill-name}/
-│   ├── SKILL.md            # Skill definition (required)
-│   └── [resources/]        # Optional scripts, templates, references
-└── ...
+├── commands/              # 33 specialized workflow commands
+│   ├── {command-name}.md   # Command definition with YAML frontmatter
+│   └── ...
+│
+├── skills/                # 17 extended capability skills
+│   ├── {skill-name}/
+│   │   ├── SKILL.md        # Skill definition (required)
+│   │   └── [resources/]    # Optional scripts, templates, references
+│   └── ...
+│
+├── hooks/                 # 10 automated event-driven scripts
+│   ├── {hook-name}/
+│   │   ├── manifest.json   # Hook metadata
+│   │   ├── {hook-name}.json # Hook configuration
+│   │   ├── {hook-name}.sh  # Hook script
+│   │   └── README.md       # Documentation
+│   └── ...
+│
+├── package.json           # Project metadata and dependencies
+└── README.md              # This file
 ```
 
 ### Manifest Format
@@ -337,7 +417,9 @@ Each agent has a `manifest.json` with this structure:
 
 ---
 
-## 🔧 Adding New Agents
+## 🔧 Contributing
+
+### Adding New Agents
 
 1. **Create agent folder**:
    ```bash
@@ -380,16 +462,100 @@ Each agent has a `manifest.json` with this structure:
    git push
    ```
 
-### Validation Rules
+#### Agent Validation Rules
 
 - ✅ `name` must match folder name
 - ✅ `name` uses only alphanumeric, dashes, underscores
 - ✅ `version` must be semantic (e.g., "1.0.0")
 - ✅ `agentFile` path must exist
 
-### Categories
+#### Agent Categories
 
 Choose one: `backend`, `frontend`, `devops`, `testing`, `documentation`, `database`, `security`, `ai`, `ai-automation`, `infrastructure`, `engineering`, `core`, `design`, `leadership`, `marketing`, `operations`, `product`, `research`, `account-customer-success`, `general`
+
+### Adding New Commands
+
+1. **Create command file** in `commands/`:
+   ```bash
+   touch commands/my-command.md
+   ```
+
+2. **Add command definition** with YAML frontmatter:
+   ```markdown
+   ---
+   title: "My Command"
+   description: "What this command does"
+   category: "Development"
+   tags: [tag1, tag2]
+   version: "1.0"
+   model: "opus"
+   examples:
+     - "/my-command Do something useful"
+   ---
+
+   ## Description
+   Detailed description of the command functionality...
+
+   ## Usage
+   Instructions on how to use this command...
+   ```
+
+### Adding New Skills
+
+1. **Create skill folder**:
+   ```bash
+   mkdir -p skills/my-skill
+   ```
+
+2. **Create SKILL.md**:
+   ```markdown
+   ---
+   name: my-skill
+   description: What this skill provides
+   ---
+
+   ## Overview
+   Description of the skill...
+
+   ## Capabilities
+   - Capability 1
+   - Capability 2
+   ```
+
+### Adding New Hooks
+
+1. **Create hook folder**:
+   ```bash
+   mkdir -p hooks/my-hook
+   ```
+
+2. **Create manifest.json**:
+   ```json
+   {
+     "name": "my-hook",
+     "displayName": "My Hook",
+     "description": "What this hook does",
+     "itemType": "hook",
+     "version": "1.0.0"
+   }
+   ```
+
+3. **Create hook configuration** (`my-hook.json`):
+   ```json
+   {
+     "hooks": {
+       "PreToolUse": [
+         "my-hook.sh"
+       ]
+     }
+   }
+   ```
+
+4. **Create hook script** (`my-hook.sh`) with executable permissions:
+   ```bash
+   #!/bin/bash
+   # Hook implementation
+   ```
 
 ---
 
@@ -397,8 +563,10 @@ Choose one: `backend`, `frontend`, `devops`, `testing`, `documentation`, `databa
 
 | Metric | Count |
 |--------|-------|
-| Total Agents | 148 |
+| Total Agents | 164 |
+| Total Commands | 33 |
 | Total Skills | 17 |
+| Total Hooks | 10 |
 | Categories | 20 |
 
 ---
