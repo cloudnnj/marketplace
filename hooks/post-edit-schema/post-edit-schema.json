@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit(**/electron/database/schema.ts)|Write(**/electron/database/schema.ts)",
+        "hooks": [
+          "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/post-edit-schema.sh"
+        ]
+      }
+    ]
+  }
+}

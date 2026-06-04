@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit(**/docs/**/*.md)|Write(**/docs/**/*.md)",
+        "hooks": [
+          "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/post-edit-docs-index.sh"
+        ]
+      }
+    ]
+  }
+}

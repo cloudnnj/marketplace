@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit(src/stores/**/*.ts)|Write(src/stores/**/*.ts)",
+        "hooks": [
+          "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/post-edit-store.sh"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "post-edit-schema",
+  "displayName": "Post-Edit: Drizzle Schema Migration Reminder",
+  "description": "Reminds Claude to run `npm run db:generate` after editing `electron/database/schema.ts`. Returns a JSON decision block so the reminder cannot be silently dropped. Project-specific: assumes a Drizzle ORM schema at `electron/database/schema.ts`.",
+  "author": "CrewDeck",
+  "category": "database",
+  "tags": ["PostToolUse", "edit", "drizzle", "migrations", "database"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

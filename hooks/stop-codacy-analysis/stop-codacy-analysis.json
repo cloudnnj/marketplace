@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/stop-codacy-analysis.sh"
+        ]
+      }
+    ]
+  }
+}

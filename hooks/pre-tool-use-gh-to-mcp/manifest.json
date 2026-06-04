@@ -1,0 +1,10 @@
+{
+  "name": "pre-tool-use-gh-to-mcp",
+  "displayName": "Pre-Tool-Use: gh CLI to GitHub MCP",
+  "description": "Blocks gh CLI commands and curl/wget calls to api.github.com, guiding Claude to use the GitHub MCP server tools (mcp__github__*) instead. Helps standardize GitHub access on the MCP path so behavior stays consistent across sessions.",
+  "author": "CrewDeck",
+  "category": "github",
+  "tags": ["PreToolUse", "bash", "github", "mcp"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "post-edit-store",
+  "displayName": "Post-Edit: Zustand Store Pattern Validator",
+  "description": "Validates that files matching `src/stores/*.store.ts` follow the Map-based Zustand pattern (Map<string, Entity[]> keyed by parent ID, helpers from `src/utils/store-helpers.ts`). Emits a JSON reminder when an edited store appears to violate the convention.",
+  "author": "CrewDeck",
+  "category": "frontend",
+  "tags": ["PostToolUse", "edit", "zustand", "react", "store"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

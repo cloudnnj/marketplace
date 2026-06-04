@@ -1,0 +1,10 @@
+{
+  "name": "pre-commit-lint",
+  "displayName": "Pre-Commit: Lint and Typecheck",
+  "description": "Runs `npm run lint` and `npm run typecheck` before any `git commit`. Blocks the commit (exit 2) on failure with the relevant output piped to stderr. Pass-through for non-commit Bash commands.",
+  "author": "CrewDeck",
+  "category": "git",
+  "tags": ["PreToolUse", "bash", "git", "lint", "typecheck"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

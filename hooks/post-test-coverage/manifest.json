@@ -1,0 +1,10 @@
+{
+  "name": "post-test-coverage",
+  "displayName": "Post-Test: Coverage Threshold Check",
+  "description": "After a vitest/`npm test` run, parses `coverage/coverage-summary.json` and emits a JSON decision block listing any metric (statements/lines/branches/functions) below configured thresholds. Defaults to 95/95/93/90; tweak via env vars.",
+  "author": "CrewDeck",
+  "category": "testing",
+  "tags": ["PostToolUse", "bash", "vitest", "coverage", "testing"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

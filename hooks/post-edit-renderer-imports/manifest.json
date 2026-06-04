@@ -1,0 +1,10 @@
+{
+  "name": "post-edit-renderer-imports",
+  "displayName": "Post-Edit: Renderer Import Boundary",
+  "description": "Blocks imports of `electron` and `node:*` modules in files under `src/**` (Electron renderer process). Renderer code must use the preload bridge (window.api) and never touch Node.js or Electron APIs directly.",
+  "author": "CrewDeck",
+  "category": "ipc",
+  "tags": ["PostToolUse", "edit", "electron", "security", "renderer"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

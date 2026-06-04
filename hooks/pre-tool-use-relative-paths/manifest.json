@@ -1,0 +1,10 @@
+{
+  "name": "pre-tool-use-relative-paths",
+  "displayName": "Pre-Tool-Use: Relative Paths",
+  "description": "Rewrites absolute paths in Bash commands to relative paths to prevent system path leakage. Detects paths under $CLAUDE_PROJECT_DIR and suggests the relative form before the command runs.",
+  "author": "CrewDeck",
+  "category": "security",
+  "tags": ["PreToolUse", "bash", "paths", "security"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stop-codacy-analysis",
+  "displayName": "Stop: Codacy Analysis on Changed Files",
+  "description": "On Stop, runs Codacy CLI against files changed in this session (working tree + staged + untracked) and rewakes Claude with any findings so they can be fixed before the session ends. Scoped to changed files to keep analysis fast.",
+  "author": "CrewDeck",
+  "category": "code-quality",
+  "tags": ["Stop", "codacy", "code-quality", "linting"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "post-edit-docs-index",
+  "displayName": "Post-Edit: Docs Index Reminder",
+  "description": "Warns when a markdown file edited under `docs/**` is not referenced from an index file (`INDEX.md`, `index.md`, or `README.md`) in its directory or parent. Helps keep docs discoverable.",
+  "author": "CrewDeck",
+  "category": "documentation",
+  "tags": ["PostToolUse", "edit", "docs", "markdown"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}

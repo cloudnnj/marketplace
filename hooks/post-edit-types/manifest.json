@@ -1,0 +1,10 @@
+{
+  "name": "post-edit-types",
+  "displayName": "Post-Edit: Shared Types Preload Sync Reminder",
+  "description": "Reminds Claude to keep `shared/types.ts` in sync with the preload context bridge and IPC channel definitions after edits. Project-specific: Electron + IPC + preload architecture.",
+  "author": "CrewDeck",
+  "category": "ipc",
+  "tags": ["PostToolUse", "edit", "electron", "ipc", "preload"],
+  "version": "1.0.0",
+  "itemType": "hook"
+}
