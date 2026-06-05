@@ -1,0 +1,10 @@
+{
+  "name": "commit-and-pr",
+  "displayName": "Commit and PR",
+  "description": "Commit staged changes to a feature branch, push to remote, and create or update a pull request with a comprehensive description",
+  "author": "CrewDeck",
+  "category": "Operations",
+  "tags": ["git", "commit", "pr", "pull-request", "automation"],
+  "version": "1.0",
+  "itemType": "command"
+}

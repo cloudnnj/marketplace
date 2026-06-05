@@ -1,0 +1,10 @@
+{
+  "name": "modernize-code",
+  "displayName": "Modernize Code",
+  "description": "Update code to use modern patterns, syntax, and best practices",
+  "author": "CrewDeck",
+  "category": "Code Quality",
+  "tags": ["modernization", "upgrade", "patterns", "refactor"],
+  "version": "1.0",
+  "itemType": "command"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fix-codacy",
+  "displayName": "Fix Codacy Issues",
+  "description": "Retrieve Codacy issues via Codacy MCP, fix them, and push via GitHub MCP",
+  "author": "CrewDeck",
+  "category": "Code Quality",
+  "tags": ["codacy", "code-quality", "security", "bugs", "code-smells", "mcp"],
+  "version": "1.0",
+  "itemType": "command"
+}

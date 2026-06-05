@@ -1,0 +1,10 @@
+{
+  "name": "sync-docs",
+  "displayName": "Sync Documentation",
+  "description": "Automatically synchronize project documentation with current codebase state",
+  "author": "CrewDeck",
+  "category": "Documentation",
+  "tags": ["documentation", "sync", "automation", "maintenance"],
+  "version": "2.0",
+  "itemType": "command"
+}

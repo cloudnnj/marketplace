@@ -1,0 +1,10 @@
+{
+  "name": "improve-pr",
+  "displayName": "Improve pull request",
+  "description": "Address PR review feedback and ensure compliance with Codacy quality standards",
+  "author": "CrewDeck",
+  "category": "Code Quality",
+  "tags": ["modernization", "upgrade", "patterns", "refactor", "codacy"],
+  "version": "3.5",
+  "itemType": "command"
+}

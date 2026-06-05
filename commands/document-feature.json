@@ -1,0 +1,10 @@
+{
+  "name": "document-feature",
+  "displayName": "Document Feature Implementation",
+  "description": "Creates detailed feature documentation by analyzing recent commits and code changes. Generates documentation in docs/changelog/features with overview, technical approach, usage examples, and any configuration options. Automatically detects if the feature touches other areas (api, database, deployment) and creates cross-referenced documentation.",
+  "author": "CrewDeck",
+  "category": "Documentation",
+  "tags": ["documentation", "features", "technical-writing", "user-guide"],
+  "version": "1.0",
+  "itemType": "command"
+}

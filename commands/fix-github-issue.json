@@ -1,0 +1,10 @@
+{
+  "name": "fix-github-issue",
+  "displayName": "Fix GitHub Issue (Interactive)",
+  "description": "Interactive GitHub issue fixing with clarification workflow and automated PR creation",
+  "author": "CrewDeck",
+  "category": "Bug Fixing",
+  "tags": ["github", "issue", "bugfix", "interactive", "pr-automation"],
+  "version": "2.0",
+  "itemType": "command"
+}

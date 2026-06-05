@@ -1,0 +1,10 @@
+{
+  "name": "document-bugfix",
+  "displayName": "Document Bug Fix",
+  "description": "Documents a bug fix with root cause analysis, the solution implemented, testing performed, and any preventive measures added. Creates documentation in docs/changelog/bugfixes with structured sections for problem description, investigation findings, resolution details, and lessons learned.",
+  "author": "CrewDeck",
+  "category": "Documentation",
+  "tags": ["documentation", "bugfix", "root-cause", "post-mortem"],
+  "version": "1.0",
+  "itemType": "command"
+}

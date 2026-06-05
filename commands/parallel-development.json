@@ -1,0 +1,10 @@
+{
+  "name": "parallel-development",
+  "displayName": "Parallel Development",
+  "description": "Develop multiple features simultaneously using Git worktrees to avoid context switching",
+  "author": "CrewDeck",
+  "category": "Development",
+  "tags": ["parallel", "worktrees", "git", "multi-feature", "workflow"],
+  "version": "1.0",
+  "itemType": "command"
+}

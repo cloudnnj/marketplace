@@ -1,0 +1,10 @@
+{
+  "name": "architect-consult",
+  "displayName": "Systems Architecture Consulting",
+  "description": "Get expert system architecture guidance, design reviews, and technology evaluation without modifying code",
+  "author": "CrewDeck",
+  "category": "Consulting",
+  "tags": ["architecture", "system-design", "consulting", "scalability", "trade-offs"],
+  "version": "1.0",
+  "itemType": "command"
+}

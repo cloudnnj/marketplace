@@ -1,0 +1,10 @@
+{
+  "name": "build-feature",
+  "displayName": "Build Feature",
+  "description": "Orchestrated full-stack feature development using specialized subagents with parallel execution",
+  "author": "CrewDeck",
+  "category": "Development",
+  "tags": ["feature", "orchestration", "electron", "react", "subagents", "workflow", "parallel"],
+  "version": "3.0",
+  "itemType": "command"
+}

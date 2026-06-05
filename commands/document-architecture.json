@@ -1,0 +1,10 @@
+{
+  "name": "document-architecture",
+  "displayName": "Document Architecture Decision",
+  "description": "Creates an Architecture Decision Record (ADR) documenting significant architectural changes from a PR. Captures the context, decision drivers, considered alternatives, chosen solution, and consequences. Places documentation in docs/reference/architecture following ADR conventions.",
+  "author": "CrewDeck",
+  "category": "Documentation",
+  "tags": ["documentation", "architecture", "adr", "design-decisions"],
+  "version": "1.0",
+  "itemType": "command"
+}

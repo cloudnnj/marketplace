@@ -1,0 +1,10 @@
+{
+  "name": "increase-coverage",
+  "displayName": "Increase Coverage",
+  "description": "Orchestrated code coverage campaign with specialized agents for frontend, backend, and infrastructure testing in parallel",
+  "author": "CrewDeck",
+  "category": "Testing",
+  "tags": ["testing", "coverage", "orchestration", "agents", "parallel", "vitest", "playwright"],
+  "version": "2.0",
+  "itemType": "command"
+}

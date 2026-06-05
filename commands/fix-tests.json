@@ -1,0 +1,10 @@
+{
+  "name": "fix-tests",
+  "displayName": "Fix Tests",
+  "description": "Detect and fix failing tests, coverage violations, and type errors from CI or local execution",
+  "author": "CrewDeck",
+  "category": "Testing",
+  "tags": ["testing", "ci", "coverage", "fix", "vitest", "typescript", "eslint"],
+  "version": "2.0",
+  "itemType": "command"
+}

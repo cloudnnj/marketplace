@@ -1,0 +1,10 @@
+{
+  "name": "fix-bug",
+  "displayName": "Fix Bug (Orchestrated)",
+  "description": "Orchestrated bug investigation and resolution with specialized subagents for root cause analysis, implementation, and verification",
+  "author": "CrewDeck",
+  "category": "Bug Fixing",
+  "tags": ["bugfix", "orchestration", "debugging", "electron", "subagents", "root-cause", "workflow"],
+  "version": "3.0",
+  "itemType": "command"
+}

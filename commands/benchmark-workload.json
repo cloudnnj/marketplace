@@ -1,0 +1,10 @@
+{
+  "name": "benchmark-workload",
+  "displayName": "Benchmark Heavy Workload",
+  "description": "Creates and runs benchmarks simulating multiple concurrent Claude terminal sessions to identify performance bottlenecks and resource limits.",
+  "author": "CrewDeck",
+  "category": "Testing",
+  "tags": ["benchmark", "performance", "testing", "load"],
+  "version": "1.0",
+  "itemType": "command"
+}

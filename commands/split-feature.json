@@ -1,0 +1,10 @@
+{
+  "name": "split-feature",
+  "displayName": "Split Feature into Tasks",
+  "description": "Decompose large features into independent, parallelizable development tasks",
+  "author": "CrewDeck",
+  "category": "Operations",
+  "tags": ["planning", "decomposition", "parallel", "workflow", "feature-splitting"],
+  "version": "1.0",
+  "itemType": "command"
+}

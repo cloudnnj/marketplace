@@ -1,0 +1,10 @@
+{
+  "name": "document-pr",
+  "displayName": "Document PR Changes",
+  "description": "Analyzes the current PR or a specified PR number, identifies the nature of changes, and generates comprehensive documentation in the appropriate docs folder (api, architecture, authentication, bugfix, database, deployment, development, diagrams, features, github-actions, postman, testing, or ai-workforce). Creates a detailed record of what was achieved, technical decisions made, and any relevant implementation details.",
+  "author": "CrewDeck",
+  "category": "Documentation",
+  "tags": ["documentation", "pr", "changelog", "technical-writing"],
+  "version": "1.0",
+  "itemType": "command"
+}

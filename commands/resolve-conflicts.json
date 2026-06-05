@@ -1,0 +1,10 @@
+{
+  "name": "resolve-conflicts",
+  "displayName": "Resolve Merge Conflicts",
+  "description": "Detects the PR associated with the current branch, identifies all merge conflicts with the target branch, and automatically resolves them using intelligent conflict resolution strategies.",
+  "author": "CrewDeck",
+  "category": "Git Operations",
+  "tags": ["git", "merge", "conflicts", "pr", "automation"],
+  "version": "1.0",
+  "itemType": "command"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "aws-consult",
+  "displayName": "AWS Architecture Consulting",
+  "description": "Get expert AWS architecture guidance and solutions without modifying code",
+  "author": "CrewDeck",
+  "category": "Consulting",
+  "tags": ["aws", "architecture", "infrastructure", "consulting", "cloud"],
+  "version": "1.0",
+  "itemType": "command"
+}

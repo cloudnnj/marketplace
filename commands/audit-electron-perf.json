@@ -1,0 +1,10 @@
+{
+  "name": "audit-electron-perf",
+  "displayName": "Audit Electron Performance",
+  "description": "Runs a comprehensive performance audit on the Electron app, checking for common performance anti-patterns, IPC bottlenecks, and renderer process inefficiencies.",
+  "author": "CrewDeck",
+  "category": "Performance",
+  "tags": ["electron", "performance", "audit", "optimization"],
+  "version": "1.0",
+  "itemType": "command"
+}

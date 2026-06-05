@@ -1,0 +1,10 @@
+{
+  "name": "do-release",
+  "displayName": "Execute Release",
+  "description": "Execute the release process with incremental prompt processing, scoped documentation updates, and release notes for changes since the previous tag",
+  "author": "CrewDeck",
+  "category": "Operations",
+  "tags": ["release", "versioning", "changelog", "deployment", "automation"],
+  "version": "2.0",
+  "itemType": "command"
+}

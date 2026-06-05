@@ -1,0 +1,10 @@
+{
+  "name": "fix-github-issue-direct",
+  "displayName": "Fix GitHub Issue (Direct)",
+  "description": "Direct GitHub issue fixing without interactive clarification - assumes issue is clear",
+  "author": "CrewDeck",
+  "category": "Bug Fixing",
+  "tags": ["github", "issue", "bugfix", "automated", "pr-creation"],
+  "version": "1.0",
+  "itemType": "command"
+}

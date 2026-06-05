@@ -1,0 +1,10 @@
+{
+  "name": "create-pr",
+  "displayName": "Create Pull Request",
+  "description": "Prepare current branch for PR submission with quality checks and automated creation",
+  "author": "CrewDeck",
+  "category": "Operations",
+  "tags": ["pr", "pull-request", "git", "quality-check", "automation"],
+  "version": "1.0",
+  "itemType": "command"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "refine-prompt",
+  "displayName": "Refine Prompt",
+  "description": "Enrich and refine AI prompts into a detailed implementation plan with project context",
+  "author": "CrewDeck",
+  "category": "Operations",
+  "tags": ["prompt", "refinement", "ai-engineering", "context", "planning"],
+  "version": "2.4",
+  "itemType": "command"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "optimize-terminal-sessions",
+  "displayName": "Optimize Terminal Sessions",
+  "description": "Analyzes terminal session handling code and suggests optimizations for buffer management, process pooling, and efficient rendering of terminal output.",
+  "author": "CrewDeck",
+  "category": "Development",
+  "tags": ["terminal", "pty", "optimization", "sessions"],
+  "version": "1.0",
+  "itemType": "command"
+}

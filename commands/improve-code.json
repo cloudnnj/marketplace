@@ -1,0 +1,10 @@
+{
+  "name": "improve-code",
+  "displayName": "Improve & Refactor Code",
+  "description": "Evaluate codebase for modularity, patterns, and best practices; create refactoring report",
+  "author": "CrewDeck",
+  "category": "Code Quality",
+  "tags": ["refactor", "code-quality", "architecture", "best-practices", "evaluation"],
+  "version": "1.0",
+  "itemType": "command"
+}

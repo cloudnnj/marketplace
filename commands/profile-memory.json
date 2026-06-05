@@ -1,0 +1,10 @@
+{
+  "name": "profile-memory",
+  "displayName": "Profile Memory Usage",
+  "description": "Captures heap snapshots and analyzes memory usage across Electron main and renderer processes, identifying potential leaks and high-memory consumers.",
+  "author": "CrewDeck",
+  "category": "Performance",
+  "tags": ["memory", "profiling", "electron", "heap", "debugging"],
+  "version": "1.0",
+  "itemType": "command"
+}

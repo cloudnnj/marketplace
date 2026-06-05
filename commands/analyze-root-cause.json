@@ -1,0 +1,10 @@
+{
+  "name": "analyze-root-cause",
+  "displayName": "Analyze Root Cause",
+  "description": "Deep diagnostic analysis to identify the root cause of bugs and issues",
+  "author": "CrewDeck",
+  "category": "Bug Fixing",
+  "tags": ["diagnostic", "analysis", "debugging", "root-cause"],
+  "version": "1.0",
+  "itemType": "command"
+}

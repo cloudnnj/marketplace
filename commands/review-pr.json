@@ -1,0 +1,10 @@
+{
+  "name": "review-pr",
+  "displayName": "Review Pull Request",
+  "description": "Comprehensive PR code review analyzing quality, bugs, performance, security, and testing against Codacy standards",
+  "author": "CrewDeck",
+  "category": "Code Quality",
+  "tags": ["review", "pr", "code-review", "quality-assurance", "security", "codacy"],
+  "version": "5.1",
+  "itemType": "command"
+}
