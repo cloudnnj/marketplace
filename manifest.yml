@@ -97,7 +97,7 @@ directory_structure:
   marketplace_bundles:
     path: "./marketplace-bundles/"
     description: "Pre-configured packages grouping related agents, commands, skills, and hooks into themed collections"
-    count: 2
+    count: 3
     structure:
       - folder_name: "{bundle-name}/"
         contents:
@@ -182,6 +182,40 @@ directory_structure:
             - name: "component-storybook-sync"
               description: "Auto-sync components to Storybook"
               path: "./hooks/component-storybook-sync.sh"
+
+      - name: "social-media-marketing"
+        displayName: "Social Media Marketing Engine"
+        domain: "marketing"
+        version: "1.0.0"
+        description: "Social media marketing toolkit for software startups: content strategy, platform-native copywriting, community engagement, launch announcements, and campaign analytics."
+        author: "CrewDeck"
+        tags: ["marketing", "social-media", "content", "growth", "startup", "saas"]
+        components:
+          agents:
+            - name: "content-strategist"
+              description: "Plans multi-channel social content strategy and calendars"
+              path: "./agents/content-strategist.md"
+            - name: "community-manager"
+              description: "Manages engagement, replies, and community building"
+              path: "./agents/community-manager.md"
+          skills:
+            - name: "social-copywriting"
+              description: "Platform-native social copy, hooks, and CTAs"
+              path: "./skills/social-copywriting"
+            - name: "campaign-analytics"
+              description: "Social reach, engagement, and conversion attribution"
+              path: "./skills/campaign-analytics"
+          commands:
+            - name: "content-calendar"
+              description: "Generate a multi-week, multi-channel content calendar"
+              path: "./commands/content-calendar.md"
+            - name: "launch-announcement"
+              description: "Craft coordinated multi-channel launch announcements"
+              path: "./commands/launch-announcement.md"
+          hooks:
+            - name: "weekly-content-scheduler"
+              description: "Prepare and queue the upcoming week's content"
+              path: "./hooks/weekly-content-scheduler.sh"
 
   metadata:
     path: "./package.json"

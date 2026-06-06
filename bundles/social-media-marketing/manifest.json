@@ -1,0 +1,19 @@
+{
+  "name": "social-media-marketing",
+  "displayName": "Social Media Marketing Engine",
+  "itemType": "bundle",
+  "version": "1.0.0",
+  "domain": "marketing",
+  "description": "Social media marketing toolkit for software startups: content strategy, platform-native copywriting, community engagement, launch announcements, and campaign analytics.",
+  "author": "CrewDeck",
+  "tags": ["marketing", "social-media", "content", "growth", "startup", "saas"],
+  "components": [
+    { "itemType": "agent", "name": "content-strategist", "path": "./agents/content-strategist.md" },
+    { "itemType": "agent", "name": "community-manager", "path": "./agents/community-manager.md" },
+    { "itemType": "skill", "name": "social-copywriting", "path": "./skills/social-copywriting" },
+    { "itemType": "skill", "name": "campaign-analytics", "path": "./skills/campaign-analytics" },
+    { "itemType": "command", "name": "content-calendar", "path": "./commands/content-calendar.md" },
+    { "itemType": "command", "name": "launch-announcement", "path": "./commands/launch-announcement.md" },
+    { "itemType": "hook", "name": "weekly-content-scheduler", "path": "./hooks/weekly-content-scheduler.sh" }
+  ]
+}
