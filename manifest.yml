@@ -217,6 +217,43 @@ directory_structure:
               description: "Prepare and queue the upcoming week's content"
               path: "./hooks/weekly-content-scheduler.sh"
 
+      - name: "product-management"
+        displayName: "Product Management Studio"
+        domain: "product"
+        version: "1.0.0"
+        description: "Product management toolkit for engineering-led teams: customer discovery and validation, backlog prioritization frameworks, PRD authoring, product metrics, and roadmap planning to decide what to build and prove it worked."
+        author: "CrewDeck"
+        tags: ["product", "product-management", "discovery", "roadmap", "prioritization", "metrics", "startup"]
+        components:
+          agents:
+            - name: "product-manager"
+              description: "Translates goals and problems into prioritized roadmaps and PRDs"
+              path: "./agents/product-manager.md"
+            - name: "user-researcher"
+              description: "Runs customer discovery and validates problems with evidence"
+              path: "./agents/user-researcher.md"
+          skills:
+            - name: "discovery-and-validation"
+              description: "Customer discovery, JTBD, and validation experiments"
+              path: "./skills/discovery-and-validation"
+            - name: "roadmap-prioritization"
+              description: "RICE/ICE/value-vs-effort scoring and roadmap sequencing"
+              path: "./skills/roadmap-prioritization"
+            - name: "product-metrics"
+              description: "North Star, activation funnel, and success measurement"
+              path: "./skills/product-metrics"
+          commands:
+            - name: "prd-writer"
+              description: "Generate an engineering-ready PRD from a feature idea"
+              path: "./commands/prd-writer.md"
+            - name: "feature-prioritize"
+              description: "Score a backlog and produce a now/next/later roadmap"
+              path: "./commands/feature-prioritize.md"
+          hooks:
+            - name: "weekly-roadmap-review"
+              description: "Assemble a weekly roadmap review packet"
+              path: "./hooks/weekly-roadmap-review.sh"
+
   metadata:
     path: "./package.json"
     description: "Project dependencies, build scripts, and configuration"

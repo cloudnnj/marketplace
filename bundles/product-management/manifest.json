@@ -1,0 +1,20 @@
+{
+  "name": "product-management",
+  "displayName": "Product Management Studio",
+  "itemType": "bundle",
+  "version": "1.0.0",
+  "domain": "product",
+  "description": "Product management toolkit for engineering-led teams: customer discovery and validation, backlog prioritization frameworks, PRD authoring, product metrics, and roadmap planning to decide what to build and prove it worked.",
+  "author": "CrewDeck",
+  "tags": ["product", "product-management", "discovery", "roadmap", "prioritization", "metrics", "startup"],
+  "components": [
+    { "itemType": "agent", "name": "product-manager", "path": "./agents/product-manager.md" },
+    { "itemType": "agent", "name": "user-researcher", "path": "./agents/user-researcher.md" },
+    { "itemType": "skill", "name": "discovery-and-validation", "path": "./skills/discovery-and-validation" },
+    { "itemType": "skill", "name": "roadmap-prioritization", "path": "./skills/roadmap-prioritization" },
+    { "itemType": "skill", "name": "product-metrics", "path": "./skills/product-metrics" },
+    { "itemType": "command", "name": "prd-writer", "path": "./commands/prd-writer.md" },
+    { "itemType": "command", "name": "feature-prioritize", "path": "./commands/feature-prioritize.md" },
+    { "itemType": "hook", "name": "weekly-roadmap-review", "path": "./hooks/weekly-roadmap-review.sh" }
+  ]
+}
